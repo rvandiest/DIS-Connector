@@ -18,8 +18,7 @@ namespace DIS
         protected PduProcessor PduProcessor { get; set; }
         protected int Port { get; set; }
         protected Socket Socket { get; set; }
-        protected EndPoint RemoteEndpoint;
-        protected EndPoint LocalEndpoint;
+        protected EndPoint Endpoint;
 
         //basic setup for the properties that are the same for every child class
         internal Connector()
@@ -70,7 +69,7 @@ namespace DIS
             while (true)
             {
                 List<object> pduList;
-                length = Socket.ReceiveFrom(bytes, ref RemoteEndpoint);
+                length = Socket.ReceiveFrom(bytes, ref Endpoint);
                 pduList = PduProcessor.ProcessPdu(bytes, Endian.Big);
                 lock (PduQueue)
                 {
@@ -92,7 +91,7 @@ namespace DIS
             DataOutputStream dos = new DataOutputStream(Endian.Big);
             pdu.MarshalAutoLengthSet(dos);
             byte[] buff = dos.ConvertToBytes();
-            Socket.SendTo(buff, RemoteEndpoint);
+            Socket.SendTo(buff, Endpoint);
         }
 
         /// <summary>
