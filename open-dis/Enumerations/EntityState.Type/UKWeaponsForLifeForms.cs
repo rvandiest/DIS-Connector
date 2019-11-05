@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.EntityState.Type
+namespace OpenDis.Enumerations.EntityState.Type
 {
     /// <summary>
     /// Enumeration values for UKWeaponsForLifeForms (es.type.224.kind.3.subcat, U.K. Weapons for Life Forms Subcategory, 

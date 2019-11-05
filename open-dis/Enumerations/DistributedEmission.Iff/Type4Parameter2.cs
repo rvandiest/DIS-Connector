@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.DistributedEmission.Iff
+namespace OpenDis.Enumerations.DistributedEmission.Iff
 {
     /// <summary>
     /// Enumeration values for Type4Parameter2 (der.iff.type.4.fop.param2, Parameter 2, 

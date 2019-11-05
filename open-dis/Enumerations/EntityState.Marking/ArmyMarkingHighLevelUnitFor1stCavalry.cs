@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.EntityState.Marking
+namespace OpenDis.Enumerations.EntityState.Marking
 {
     /// <summary>
     /// Enumeration values for ArmyMarkingHighLevelUnitFor1stCavalry (es.markingtext.cctt.1cavunit, Byte 3 - High Level Unit (Byte 2 = 1 - 1st Cavalry), 

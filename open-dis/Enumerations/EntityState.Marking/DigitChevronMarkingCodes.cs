@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.EntityState.Marking
+namespace OpenDis.Enumerations.EntityState.Marking
 {
     /// <summary>
     /// Enumeration values for DigitChevronMarkingCodes (es.markingtext.chevron.symbol, Digit / Chevron Codes, 

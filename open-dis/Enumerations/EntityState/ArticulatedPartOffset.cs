@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.EntityState
+namespace OpenDis.Enumerations.EntityState
 {
     /// <summary>
     /// Enumeration values for ArticulatedPartOffset (es.vp.type.0.articulated.offset, Articulated parts offset number, 

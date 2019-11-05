@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using Core;
+using OpenDis.Core;
 
-namespace Dis1998
+namespace OpenDis.Dis1998
 {
     /// <summary>
     /// Section 5.3.12.5: Ack receipt of a start-resume, stop-freeze, create-entity or remove enitty (reliable) pdus. COMPLETE

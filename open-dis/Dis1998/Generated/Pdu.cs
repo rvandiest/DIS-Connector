@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using Core;
+using OpenDis.Core;
 
-namespace Dis1998
+namespace OpenDis.Dis1998
 {
     /// <summary>
     /// The superclass for all PDUs. This incorporates the PduHeader record, section 5.2.29.

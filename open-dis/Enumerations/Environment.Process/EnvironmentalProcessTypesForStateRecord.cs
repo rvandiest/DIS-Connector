@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.Environment.Process
+namespace OpenDis.Enumerations.Environment.Process
 {
     /// <summary>
     /// Enumeration values for EnvironmentalProcessTypesForStateRecord (env.process.type.staterecord, Type field values for State record, 

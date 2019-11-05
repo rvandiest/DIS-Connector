@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.Logistics
+namespace OpenDis.Enumerations.Logistics
 {
     /// <summary>
     /// Enumeration values for LifeSupportRepairCode (log.repaircomplete.lifesupport, Life support systems, 

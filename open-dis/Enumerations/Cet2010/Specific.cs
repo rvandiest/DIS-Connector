@@ -5,22 +5,22 @@ using System.Globalization;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace Enumerations.Cet2010
+namespace OpenDis.Enumerations.Cet2010
 {
     [Serializable()]
     [DebuggerStepThrough()]
     public class Specific : GenericEntrySingle, ISpecificOrSpecificRange
     {
-		#regionï¿½Fieldsï¿½(3)ï¿½
+		#region Fields (3) 
 
         private List<GenericEntryDescription> items1Field;
 
         private ulong uid;
         private string uidField;
 
-		#endregionï¿½Fieldsï¿½
+		#endregion Fields 
 
-		#regionï¿½Propertiesï¿½(3)ï¿½
+		#region Properties (3) 
 
         [XmlElement("extra", typeof(Extra), Form = XmlSchemaForm.Unqualified)]
         [XmlElement("extra_range", typeof(ExtraRange), Form = XmlSchemaForm.Unqualified)]
@@ -90,6 +90,6 @@ namespace Enumerations.Cet2010
             }
         }
 
-		#endregionï¿½Propertiesï¿½
+		#endregion Properties 
     }
 }

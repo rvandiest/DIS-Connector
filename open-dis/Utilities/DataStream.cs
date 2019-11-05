@@ -41,23 +41,23 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 
-namespace Core
+namespace OpenDis.Core
 {
     /// <summary>
     /// Base class for storing PDU information
     /// </summary>
     public class DataStream : IDisposable
     {
-		#regionï¿½Fieldsï¿½(1)ï¿½
+		#region Fields (1) 
 
         /// <summary>
         /// The endian type.
         /// </summary>
         private Endian endianType;
 
-		#endregionï¿½Fieldsï¿½
+		#endregion Fields 
 
-		#regionï¿½Constructorsï¿½(1)ï¿½
+		#region Constructors (1) 
 
         /// <summary>
         /// Initializes a new instance of the DataStream class.  
@@ -72,9 +72,9 @@ namespace Core
             this.Stream = new MemoryStream();
         }
 
-		#endregionï¿½Constructorsï¿½
+		#endregion Constructors 
 
-		#regionï¿½Propertiesï¿½(4)ï¿½
+		#region Properties (4) 
 
         /// <summary>
         /// Gets or sets the endian type
@@ -119,9 +119,9 @@ namespace Core
             set;
         }
 
-		#endregionï¿½Propertiesï¿½
+		#endregion Properties 
 
-		#regionï¿½Methodsï¿½(6)ï¿½
+		#region Methods (6) 
 
         /// <summary>
         /// Appends the byte array data to the MemoryStream
@@ -191,6 +191,6 @@ namespace Core
             return temp;
         }
 
-		#endregionï¿½Methodsï¿½
+		#endregion Methods 
     }
 }

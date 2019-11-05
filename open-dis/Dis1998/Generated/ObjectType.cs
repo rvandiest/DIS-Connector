@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using Core;
+using OpenDis.Core;
 
-namespace Dis1998
+namespace OpenDis.Dis1998
 {
     /// <summary>
     /// Identifies type of object. This is a shorter version of EntityType that omits the specific and extra fields.

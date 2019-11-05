@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using Core;
+using OpenDis.Core;
 
-namespace Dis1998
+namespace OpenDis.Dis1998
 {
     /// <summary>
     /// Section 5.3.12.9: initializing or chaning internal state information, reliable. Needs manual intervention to fix     padding on variable datums. UNFINISHED

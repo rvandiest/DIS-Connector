@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.DistributedEmission.Iff
+namespace OpenDis.Enumerations.DistributedEmission.Iff
 {
     /// <summary>
     /// Enumeration values for SystemName (der.iff.name, System Name, 

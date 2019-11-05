@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.EntityState.Type
+namespace OpenDis.Enumerations.EntityState.Type
 {
     /// <summary>
     /// Enumeration values for RadioNomenclature (es.type.kind.7.nomenclature, Radio Nomenclature, 

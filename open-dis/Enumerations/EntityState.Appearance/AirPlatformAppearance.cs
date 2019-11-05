@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.EntityState.Appearance
+namespace OpenDis.Enumerations.EntityState.Appearance
 {
     /// <summary>
     /// Enumeration values for AirPlatformAppearance (es.appear.platform.air, Platforms of the Air Domain, 
@@ -484,9 +484,9 @@ namespace Enumerations.EntityState.Appearance
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> to <see cref="System.UInt32"/>.
+        /// Performs an explicit conversion from <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> to <see cref="System.UInt32"/>.
         /// </summary>
-        /// <param name="obj">The <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> scheme instance.</param>
+        /// <param name="obj">The <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> scheme instance.</param>
         /// <returns>The result of the conversion.</returns>
         public static explicit operator uint(AirPlatformAppearance obj)
         {
@@ -494,7 +494,7 @@ namespace Enumerations.EntityState.Appearance
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="System.UInt32"/> to <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/>.
+        /// Performs an explicit conversion from <see cref="System.UInt32"/> to <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/>.
         /// </summary>
         /// <param name="value">The uint value.</param>
         /// <returns>The result of the conversion.</returns>
@@ -504,11 +504,11 @@ namespace Enumerations.EntityState.Appearance
         }
 
         /// <summary>
-        /// Creates the <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance from the byte array.
+        /// Creates the <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance from the byte array.
         /// </summary>
-        /// <param name="array">The array which holds the values for the <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/>.</param>
+        /// <param name="array">The array which holds the values for the <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/>.</param>
         /// <param name="index">The starting position within value.</param>
-        /// <returns>The <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance, represented by a byte array.</returns>
+        /// <returns>The <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance, represented by a byte array.</returns>
         /// <exception cref="ArgumentNullException">if the <c>array</c> is null.</exception>
         /// <exception cref="IndexOutOfRangeException">if the <c>index</c> is lower than 0 or greater or equal than number of elements in array.</exception>
         public static AirPlatformAppearance FromByteArray(byte[] array, int index)
@@ -529,10 +529,10 @@ namespace Enumerations.EntityState.Appearance
         }
 
         /// <summary>
-        /// Creates the <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance from the uint value.
+        /// Creates the <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance from the uint value.
         /// </summary>
-        /// <param name="value">The uint value which represents the <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance.</param>
-        /// <returns>The <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance, represented by the uint value.</returns>
+        /// <param name="value">The uint value which represents the <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance.</param>
+        /// <returns>The <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance, represented by the uint value.</returns>
         public static AirPlatformAppearance FromUInt32(uint value)
         {
             AirPlatformAppearance ps = new AirPlatformAppearance();
@@ -818,11 +818,11 @@ namespace Enumerations.EntityState.Appearance
         }
 
         /// <summary>
-        /// Determines whether the specified <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance is equal to this instance.
+        /// Determines whether the specified <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance is equal to this instance.
         /// </summary>
-        /// <param name="other">The <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance to compare with this instance.</param>
+        /// <param name="other">The <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance to compare with this instance.</param>
         /// <returns>
-        /// 	<c>true</c> if the specified <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> is equal to this instance; otherwise, <c>false</c>.
+        /// 	<c>true</c> if the specified <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
         public bool Equals(AirPlatformAppearance other)
         {
@@ -853,18 +853,18 @@ namespace Enumerations.EntityState.Appearance
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> to the byte array.
+        /// Converts the instance of <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> to the byte array.
         /// </summary>
-        /// <returns>The byte array representing the current <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance.</returns>
+        /// <returns>The byte array representing the current <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance.</returns>
         public byte[] ToByteArray()
         {
             return BitConverter.GetBytes(this.ToUInt32());
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> to the uint value.
+        /// Converts the instance of <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> to the uint value.
         /// </summary>
-        /// <returns>The uint value representing the current <see cref="Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance.</returns>
+        /// <returns>The uint value representing the current <see cref="OpenDis.Enumerations.EntityState.Appearance.AirPlatformAppearance"/> instance.</returns>
         public uint ToUInt32()
         {
             uint val = 0;

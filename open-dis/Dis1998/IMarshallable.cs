@@ -1,6 +1,6 @@
-using Core;
+using OpenDis.Core;
 
-namespace Dis1998
+namespace OpenDis.Dis1998
 {
     /// <summary>
     /// I added this interface to the Open-DIS library to be able to send all different

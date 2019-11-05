@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.EntityState.Type
+namespace OpenDis.Enumerations.EntityState.Type
 {
     /// <summary>
     /// Enumeration values for GermanWeaponsForLifeForms (es.type.78.kind.3.subcat, German Weapons for Life Forms Subcategory, 

@@ -39,10 +39,10 @@ using System;
 using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
-using Core;
+using OpenDis.Core;
 using System.Collections.Generic;
 
-namespace Core
+namespace OpenDis.Core
 {
     public static class EnumHelper
     {

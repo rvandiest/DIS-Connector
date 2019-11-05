@@ -5,10 +5,10 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Xml.Schema;
 using System.Xml.Serialization;
-using Core;
-using Enumerations.EntityState.Type;
+using OpenDis.Core;
+using OpenDis.Enumerations.EntityState.Type;
 
-namespace Enumerations.Cet2006
+namespace OpenDis.Enumerations.Cet2006
 {
     [Serializable()]
     [DebuggerStepThrough()]

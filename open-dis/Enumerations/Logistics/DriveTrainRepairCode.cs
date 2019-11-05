@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.Logistics
+namespace OpenDis.Enumerations.Logistics
 {
     /// <summary>
     /// Enumeration values for DriveTrainRepairCode (log.repaircomplete.drivetrain, Drive train, 

@@ -3,9 +3,9 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Xml.Serialization;
-using Core;
+using OpenDis.Core;
 
-namespace Enumerations.Cet2010
+namespace OpenDis.Enumerations.Cet2010
 {
     /// <summary>
     /// Comprehensive entity types factory.
@@ -20,7 +20,7 @@ namespace Enumerations.Cet2010
         /// <returns>Aggregate types</returns>
         public static Cet CreateAggregateTypes()
         {
-            return CreateCet("Enumerations.Cet2010.AggregateTypes.xml");
+            return CreateCet("OpenDis.Enumerations.Cet2010.AggregateTypes.xml");
         }
 
         /// <summary>
@@ -117,7 +117,7 @@ namespace Enumerations.Cet2010
         /// <returns>Entity types.</returns>
         public static Cet CreateEntityTypes()
         {
-            return CreateCet("Enumerations.Cet2010.EntityTypes.xml");
+            return CreateCet("OpenDis.Enumerations.Cet2010.EntityTypes.xml");
         }
 
 		#endregion Static methods 

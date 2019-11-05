@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.EntityState.Appearance
+namespace OpenDis.Enumerations.EntityState.Appearance
 {
     /// <summary>
     /// Enumeration values for CulturalAppearance (es.appear.cultural, Cultural Features Kind, 
@@ -278,9 +278,9 @@ namespace Enumerations.EntityState.Appearance
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> to <see cref="System.UInt32"/>.
+        /// Performs an explicit conversion from <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> to <see cref="System.UInt32"/>.
         /// </summary>
-        /// <param name="obj">The <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> scheme instance.</param>
+        /// <param name="obj">The <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> scheme instance.</param>
         /// <returns>The result of the conversion.</returns>
         public static explicit operator uint(CulturalAppearance obj)
         {
@@ -288,7 +288,7 @@ namespace Enumerations.EntityState.Appearance
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="System.UInt32"/> to <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/>.
+        /// Performs an explicit conversion from <see cref="System.UInt32"/> to <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/>.
         /// </summary>
         /// <param name="value">The uint value.</param>
         /// <returns>The result of the conversion.</returns>
@@ -298,11 +298,11 @@ namespace Enumerations.EntityState.Appearance
         }
 
         /// <summary>
-        /// Creates the <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> instance from the byte array.
+        /// Creates the <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> instance from the byte array.
         /// </summary>
-        /// <param name="array">The array which holds the values for the <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/>.</param>
+        /// <param name="array">The array which holds the values for the <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/>.</param>
         /// <param name="index">The starting position within value.</param>
-        /// <returns>The <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> instance, represented by a byte array.</returns>
+        /// <returns>The <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> instance, represented by a byte array.</returns>
         /// <exception cref="ArgumentNullException">if the <c>array</c> is null.</exception>
         /// <exception cref="IndexOutOfRangeException">if the <c>index</c> is lower than 0 or greater or equal than number of elements in array.</exception>
         public static CulturalAppearance FromByteArray(byte[] array, int index)
@@ -323,10 +323,10 @@ namespace Enumerations.EntityState.Appearance
         }
 
         /// <summary>
-        /// Creates the <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> instance from the uint value.
+        /// Creates the <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> instance from the uint value.
         /// </summary>
-        /// <param name="value">The uint value which represents the <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> instance.</param>
-        /// <returns>The <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> instance, represented by the uint value.</returns>
+        /// <param name="value">The uint value which represents the <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> instance.</param>
+        /// <returns>The <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> instance, represented by the uint value.</returns>
         public static CulturalAppearance FromUInt32(uint value)
         {
             CulturalAppearance ps = new CulturalAppearance();
@@ -492,11 +492,11 @@ namespace Enumerations.EntityState.Appearance
         }
 
         /// <summary>
-        /// Determines whether the specified <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> instance is equal to this instance.
+        /// Determines whether the specified <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> instance is equal to this instance.
         /// </summary>
-        /// <param name="other">The <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> instance to compare with this instance.</param>
+        /// <param name="other">The <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> instance to compare with this instance.</param>
         /// <returns>
-        /// 	<c>true</c> if the specified <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> is equal to this instance; otherwise, <c>false</c>.
+        /// 	<c>true</c> if the specified <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
         public bool Equals(CulturalAppearance other)
         {
@@ -519,18 +519,18 @@ namespace Enumerations.EntityState.Appearance
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> to the byte array.
+        /// Converts the instance of <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> to the byte array.
         /// </summary>
-        /// <returns>The byte array representing the current <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> instance.</returns>
+        /// <returns>The byte array representing the current <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> instance.</returns>
         public byte[] ToByteArray()
         {
             return BitConverter.GetBytes(this.ToUInt32());
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> to the uint value.
+        /// Converts the instance of <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> to the uint value.
         /// </summary>
-        /// <returns>The uint value representing the current <see cref="Enumerations.EntityState.Appearance.CulturalAppearance"/> instance.</returns>
+        /// <returns>The uint value representing the current <see cref="OpenDis.Enumerations.EntityState.Appearance.CulturalAppearance"/> instance.</returns>
         public uint ToUInt32()
         {
             uint val = 0;

@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.Radio
+namespace OpenDis.Enumerations.Radio
 {
     /// <summary>
     /// Enumeration values for ReceiverState (radio.rx.state, Receiver State, 

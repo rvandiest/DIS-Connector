@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations
+namespace OpenDis.Enumerations
 {
     /// <summary>
     /// Enumeration values for PduType (pduheader.pdutype, PDU Type, 

@@ -43,20 +43,20 @@ using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 
-namespace Core
+namespace OpenDis.Core
 {
     /// <summary>
     /// Class used to export PDU information from a DataStream
     /// </summary>
     public class DataOutputStream
     {
-		#regionï¿½Fieldsï¿½(1)ï¿½
+		#region Fields (1) 
 
         DataStream pduDataStream;
 
-		#endregionï¿½Fieldsï¿½
+		#endregion Fields 
 
-		#regionï¿½Constructorsï¿½(2)ï¿½
+		#region Constructors (2) 
 
         /// <summary>
         /// Initializes a new instance of the DataOutputStream class from an 
@@ -91,9 +91,9 @@ namespace Core
             this.Endian = endian;
         }
 
-		#endregionï¿½Constructorsï¿½
+		#endregion Constructors 
 
-		#regionï¿½Propertiesï¿½(2)ï¿½
+		#region Properties (2) 
 
         /// <summary>
         /// Gets the underlining DataStream
@@ -122,9 +122,9 @@ namespace Core
             }
         }
 
-		#endregionï¿½Propertiesï¿½
+		#endregion Properties 
 
-		#regionï¿½Methodsï¿½(15)ï¿½
+		#region Methods (15) 
 
         /// <summary>
         /// Converts the DataStream to a byte array
@@ -319,6 +319,6 @@ namespace Core
             this.pduDataStream.StreamCounter += data.Length;
         }
 
-		#endregionï¿½Methodsï¿½
+		#endregion Methods 
     }
 }

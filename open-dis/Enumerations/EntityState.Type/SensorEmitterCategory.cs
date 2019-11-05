@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.EntityState.Type
+namespace OpenDis.Enumerations.EntityState.Type
 {
     /// <summary>
     /// Enumeration values for SensorEmitterCategory (es.type.kind.9.cat, Sensor/Emitter Category, 

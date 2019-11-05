@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
-using Core;
-using Dis1998;
+using OpenDis.Core;
+using OpenDis.Dis1998;
 
 namespace DIS
 {

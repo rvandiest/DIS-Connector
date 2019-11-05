@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Dis1998
+namespace OpenDis.Dis1998
 {
     /// <summary>
     /// Section 5.2.33. Three floating point values, x, y, and z

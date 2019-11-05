@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.Environment.ObjectState
+namespace OpenDis.Enumerations.Environment.ObjectState
 {
     /// <summary>
     /// Enumeration values for LinearObjectStatePDUModificationField (env.obj.mod.linear, Linear Object State PDU Modification Field, 

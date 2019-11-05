@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Enumerations.Cet2010
+namespace OpenDis.Enumerations.Cet2010
 {
     public interface IGenericEntryDescription : IGenericEntry
     {

@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.Radio.Transmitter
+namespace OpenDis.Enumerations.Radio.Transmitter
 {
     /// <summary>
     /// Enumeration values for DetailedModulationForAmplitudeAndAngleModulation (radio.tx.mod.major.2.detail, Detailed modulation for amplitude and angle modulation, 

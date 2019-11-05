@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.DistributedEmission.UnderwaterAcoustic
+namespace OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic
 {
     /// <summary>
     /// Enumeration values for ScanPattern (der.ua.scanpattern, Scan Pattern, 

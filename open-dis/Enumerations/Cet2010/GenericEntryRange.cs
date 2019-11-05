@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Xml.Serialization;
 
-namespace Enumerations.Cet2010
+namespace OpenDis.Enumerations.Cet2010
 {
     /// <summary>
     /// Attributes and elements common to enumeration entries concerning a range of integer values.
@@ -15,14 +15,14 @@ namespace Enumerations.Cet2010
     [DebuggerStepThrough()]
     public abstract class GenericEntryRange : GenericEntryDescription
     {
-		#regionï¿½Fieldsï¿½(2)ï¿½
+		#region Fields (2) 
 
         private int value_maxField;
         private int value_minField;
 
-		#endregionï¿½Fieldsï¿½
+		#endregion Fields 
 
-		#regionï¿½Propertiesï¿½(2)ï¿½
+		#region Properties (2) 
 
         /// <summary>
         /// Gets or sets the maximum value (inclusive) of the enumerated range.
@@ -70,6 +70,6 @@ namespace Enumerations.Cet2010
             }
         }
 
-		#endregionï¿½Propertiesï¿½
+		#endregion Properties 
     }
 }

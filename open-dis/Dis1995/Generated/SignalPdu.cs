@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using Core;
+using OpenDis.Core;
 
-namespace Dis1995
+namespace OpenDis.Dis1995
 {
     /// <summary>
     /// Section 5.3.8.1. Detailed information about a radio transmitter. This PDU requires        manually written code to comnplete.

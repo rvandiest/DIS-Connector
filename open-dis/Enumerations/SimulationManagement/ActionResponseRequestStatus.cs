@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.SimulationManagement
+namespace OpenDis.Enumerations.SimulationManagement
 {
     /// <summary>
     /// Enumeration values for ActionResponseRequestStatus (simman.actionresponse.status, Request Status, 

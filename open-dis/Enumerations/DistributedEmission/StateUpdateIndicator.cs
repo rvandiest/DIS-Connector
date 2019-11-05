@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.DistributedEmission
+namespace OpenDis.Enumerations.DistributedEmission
 {
     /// <summary>
     /// Enumeration values for StateUpdateIndicator (der.emission.stateupdate, State Update Indicator, 

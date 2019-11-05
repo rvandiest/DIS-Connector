@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.Environment.Process
+namespace OpenDis.Enumerations.Environment.Process
 {
     /// <summary>
     /// Enumeration values for EnvironmentalProcessTypesForGeometryRecord (env.process.type.geometryrecord, Type field values for Geometry record, 

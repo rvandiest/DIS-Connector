@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations
+namespace OpenDis.Enumerations
 {
     /// <summary>
     /// Enumeration values for ProtocolFamily (pduheader.protocolfamily, Protocol Family, 

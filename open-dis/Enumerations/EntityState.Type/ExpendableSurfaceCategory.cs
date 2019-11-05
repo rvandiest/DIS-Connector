@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.EntityState.Type
+namespace OpenDis.Enumerations.EntityState.Type
 {
     /// <summary>
     /// Enumeration values for ExpendableSurfaceCategory (es.type.kind.8.domain.3.cat, Expendable-Surface Category, 

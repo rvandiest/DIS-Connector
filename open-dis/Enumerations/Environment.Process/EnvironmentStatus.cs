@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.Environment.Process
+namespace OpenDis.Enumerations.Environment.Process
 {
     /// <summary>
     /// Enumeration values for EnvironmentStatus (env.process.environmentstatus, Environment Status, 

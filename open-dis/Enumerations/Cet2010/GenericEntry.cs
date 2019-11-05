@@ -6,9 +6,9 @@ using System.Globalization;
 using System.Text.RegularExpressions;
 using System.Xml.Schema;
 using System.Xml.Serialization;
-using Core;
+using OpenDis.Core;
 
-namespace Enumerations.Cet2010
+namespace OpenDis.Enumerations.Cet2010
 {
     /// <summary>
     /// Attributes and elements common to all enumeration entries.
@@ -28,9 +28,9 @@ namespace Enumerations.Cet2010
     [XmlInclude(typeof(GenericEntryString))]
     [Serializable()]
     [DebuggerStepThrough()]
-    public abstract class GenericEntry : CetBase, INotifyPropertyChanged, Enumerations.Cet2010.IGenericEntry
+    public abstract class GenericEntry : CetBase, INotifyPropertyChanged, OpenDis.Enumerations.Cet2010.IGenericEntry
     {
-		#regionï¿½Fieldsï¿½(14)ï¿½
+		#region Fields (14) 
 
         private static Regex uuidRegEx = new Regex("[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}");
 
@@ -49,15 +49,15 @@ namespace Enumerations.Cet2010
         private ulong xref;
         private string xrefField;
 
-		#endregionï¿½Fieldsï¿½
+		#endregion Fields 
 
-		#regionï¿½Delegatesï¿½andï¿½Eventsï¿½(1)ï¿½
+		#region Delegates and Events (1) 
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-		#endregionï¿½Delegatesï¿½andï¿½Eventsï¿½
+		#endregion Delegates and Events 
 
-		#regionï¿½Propertiesï¿½(13)ï¿½
+		#region Properties (13) 
 
         /// <summary>
         /// Gets or sets a value indicating whether this entry was based on another enumeration entry UUID.
@@ -371,9 +371,9 @@ namespace Enumerations.Cet2010
             }
         }
 
-		#endregionï¿½Propertiesï¿½
+		#endregion Properties 
 
-		#regionï¿½Methodsï¿½(1)ï¿½
+		#region Methods (1) 
 
         protected void RaisePropertyChanged(string propertyName)
         {
@@ -383,6 +383,6 @@ namespace Enumerations.Cet2010
             }
         }
 
-		#endregionï¿½Methodsï¿½
+		#endregion Methods 
     }
 }

@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using Core;
+using OpenDis.Core;
 
-namespace Dis1995
+namespace OpenDis.Dis1995
 {
     /// <summary>
     /// Section 5.3.6.9. Change state information with the data contained in this

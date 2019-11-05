@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.Radio.Intercom
+namespace OpenDis.Enumerations.Radio.Intercom
 {
     /// <summary>
     /// Enumeration values for DestinationLineStateCommand (radio.ic.deststate, Destination Line State Command, 

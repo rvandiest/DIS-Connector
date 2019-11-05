@@ -39,11 +39,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Core
+namespace OpenDis.Core
 {
     public static class Conversion
     {
-		#regionï¿½Fieldsï¿½(2)ï¿½
+		#region Fields (2) 
 
          /// <summary>
          /// The mask that will leave only the type metric from an 
@@ -59,9 +59,9 @@ namespace Core
         /// </summary>
         public const byte ARTICULATION_PARAMETER_TYPE_METRIC_NUMBER_OF_BITS = 5;
 
-		#endregionï¿½Fieldsï¿½
+		#endregion Fields 
 
-		#regionï¿½Methodsï¿½(3)ï¿½
+		#region Methods (3) 
 
         /// <summary>
         /// Extracts the data for the type class value stored within the parameter type value.
@@ -105,6 +105,6 @@ namespace Core
                    + typemetric);
         }
 
-		#endregionï¿½Methodsï¿½
+		#endregion Methods 
     }
 }

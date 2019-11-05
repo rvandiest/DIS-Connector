@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 
-namespace Core
+namespace OpenDis.Core
 {
 
 /// <summary>

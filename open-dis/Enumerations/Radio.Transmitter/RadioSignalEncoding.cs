@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.Radio.Transmitter
+namespace OpenDis.Enumerations.Radio.Transmitter
 {
     /// <summary>
     /// Enumeration values for RadioSignalEncoding (radio.tx.encoding, Radio signal encoding, 
@@ -139,9 +139,9 @@ namespace Enumerations.Radio.Transmitter
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> to <see cref="System.UInt16"/>.
+        /// Performs an explicit conversion from <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> to <see cref="System.UInt16"/>.
         /// </summary>
-        /// <param name="obj">The <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> scheme instance.</param>
+        /// <param name="obj">The <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> scheme instance.</param>
         /// <returns>The result of the conversion.</returns>
         public static explicit operator ushort(RadioSignalEncoding obj)
         {
@@ -149,7 +149,7 @@ namespace Enumerations.Radio.Transmitter
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="System.UInt16"/> to <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/>.
+        /// Performs an explicit conversion from <see cref="System.UInt16"/> to <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/>.
         /// </summary>
         /// <param name="value">The ushort value.</param>
         /// <returns>The result of the conversion.</returns>
@@ -159,11 +159,11 @@ namespace Enumerations.Radio.Transmitter
         }
 
         /// <summary>
-        /// Creates the <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance from the byte array.
+        /// Creates the <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance from the byte array.
         /// </summary>
-        /// <param name="array">The array which holds the values for the <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/>.</param>
+        /// <param name="array">The array which holds the values for the <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/>.</param>
         /// <param name="index">The starting position within value.</param>
-        /// <returns>The <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance, represented by a byte array.</returns>
+        /// <returns>The <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance, represented by a byte array.</returns>
         /// <exception cref="ArgumentNullException">if the <c>array</c> is null.</exception>
         /// <exception cref="IndexOutOfRangeException">if the <c>index</c> is lower than 0 or greater or equal than number of elements in array.</exception>
         public static RadioSignalEncoding FromByteArray(byte[] array, int index)
@@ -184,10 +184,10 @@ namespace Enumerations.Radio.Transmitter
         }
 
         /// <summary>
-        /// Creates the <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance from the ushort value.
+        /// Creates the <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance from the ushort value.
         /// </summary>
-        /// <param name="value">The ushort value which represents the <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance.</param>
-        /// <returns>The <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance, represented by the ushort value.</returns>
+        /// <param name="value">The ushort value which represents the <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance.</param>
+        /// <returns>The <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance, represented by the ushort value.</returns>
         public static RadioSignalEncoding FromUInt16(ushort value)
         {
             RadioSignalEncoding ps = new RadioSignalEncoding();
@@ -248,11 +248,11 @@ namespace Enumerations.Radio.Transmitter
         }
 
         /// <summary>
-        /// Determines whether the specified <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance is equal to this instance.
+        /// Determines whether the specified <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance is equal to this instance.
         /// </summary>
-        /// <param name="other">The <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance to compare with this instance.</param>
+        /// <param name="other">The <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance to compare with this instance.</param>
         /// <returns>
-        /// 	<c>true</c> if the specified <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> is equal to this instance; otherwise, <c>false</c>.
+        /// 	<c>true</c> if the specified <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
         public bool Equals(RadioSignalEncoding other)
         {
@@ -268,18 +268,18 @@ namespace Enumerations.Radio.Transmitter
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> to the byte array.
+        /// Converts the instance of <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> to the byte array.
         /// </summary>
-        /// <returns>The byte array representing the current <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance.</returns>
+        /// <returns>The byte array representing the current <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance.</returns>
         public byte[] ToByteArray()
         {
             return BitConverter.GetBytes(this.ToUInt16());
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> to the ushort value.
+        /// Converts the instance of <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> to the ushort value.
         /// </summary>
-        /// <returns>The ushort value representing the current <see cref="Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance.</returns>
+        /// <returns>The ushort value representing the current <see cref="OpenDis.Enumerations.Radio.Transmitter.RadioSignalEncoding"/> instance.</returns>
         public ushort ToUInt16()
         {
             ushort val = 0;

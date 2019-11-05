@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Xml.Serialization;
 
-namespace Enumerations.Cet2006
+namespace OpenDis.Enumerations.Cet2006
 {
     [Serializable()]
     [DebuggerStepThrough()]

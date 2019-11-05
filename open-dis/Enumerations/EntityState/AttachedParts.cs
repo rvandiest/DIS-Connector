@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.EntityState
+namespace OpenDis.Enumerations.EntityState
 {
     /// <summary>
     /// Enumeration values for AttachedParts (es.vp.type.1.attached, Attached parts, 

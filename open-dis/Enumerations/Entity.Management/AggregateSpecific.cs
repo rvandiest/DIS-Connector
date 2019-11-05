@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.Entity.Management
+namespace OpenDis.Enumerations.Entity.Management
 {
     /// <summary>
     /// Enumeration values for AggregateSpecific (eman.aggregate.type.specific, Specific, 

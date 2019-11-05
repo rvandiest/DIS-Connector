@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using Dis1998;
+using OpenDis.Dis1998;
 
 namespace DIS
 {

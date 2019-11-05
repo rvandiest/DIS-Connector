@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.EntityState.Marking
+namespace OpenDis.Enumerations.EntityState.Marking
 {
     /// <summary>
     /// Enumeration values for ArmyMarkingDivisionCorpsDesignation (es.markingtext.cctt.div, Byte 2 - Division /Corps designation, 

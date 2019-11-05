@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Core
+namespace OpenDis.Core
 {
     /// <summary>
     /// Converts DIS (x,y,z) rectilinear coordinates (earth-centered RH coordinate system)

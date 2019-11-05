@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.Entity.Information.Minefield
+namespace OpenDis.Enumerations.Entity.Information.Minefield
 {
     /// <summary>
     /// Enumeration values for Appearance (entity.mine.appear, Appearance Bit Map, 
@@ -163,9 +163,9 @@ namespace Enumerations.Entity.Information.Minefield
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> to <see cref="System.UInt16"/>.
+        /// Performs an explicit conversion from <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> to <see cref="System.UInt16"/>.
         /// </summary>
-        /// <param name="obj">The <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> scheme instance.</param>
+        /// <param name="obj">The <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> scheme instance.</param>
         /// <returns>The result of the conversion.</returns>
         public static explicit operator ushort(Appearance obj)
         {
@@ -173,7 +173,7 @@ namespace Enumerations.Entity.Information.Minefield
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="System.UInt16"/> to <see cref="Enumerations.Entity.Information.Minefield.Appearance"/>.
+        /// Performs an explicit conversion from <see cref="System.UInt16"/> to <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/>.
         /// </summary>
         /// <param name="value">The ushort value.</param>
         /// <returns>The result of the conversion.</returns>
@@ -183,11 +183,11 @@ namespace Enumerations.Entity.Information.Minefield
         }
 
         /// <summary>
-        /// Creates the <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> instance from the byte array.
+        /// Creates the <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> instance from the byte array.
         /// </summary>
-        /// <param name="array">The array which holds the values for the <see cref="Enumerations.Entity.Information.Minefield.Appearance"/>.</param>
+        /// <param name="array">The array which holds the values for the <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/>.</param>
         /// <param name="index">The starting position within value.</param>
-        /// <returns>The <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> instance, represented by a byte array.</returns>
+        /// <returns>The <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> instance, represented by a byte array.</returns>
         /// <exception cref="ArgumentNullException">if the <c>array</c> is null.</exception>
         /// <exception cref="IndexOutOfRangeException">if the <c>index</c> is lower than 0 or greater or equal than number of elements in array.</exception>
         public static Appearance FromByteArray(byte[] array, int index)
@@ -208,10 +208,10 @@ namespace Enumerations.Entity.Information.Minefield
         }
 
         /// <summary>
-        /// Creates the <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> instance from the ushort value.
+        /// Creates the <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> instance from the ushort value.
         /// </summary>
-        /// <param name="value">The ushort value which represents the <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> instance.</param>
-        /// <returns>The <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> instance, represented by the ushort value.</returns>
+        /// <param name="value">The ushort value which represents the <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> instance.</param>
+        /// <returns>The <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> instance, represented by the ushort value.</returns>
         public static Appearance FromUInt16(ushort value)
         {
             Appearance ps = new Appearance();
@@ -302,11 +302,11 @@ namespace Enumerations.Entity.Information.Minefield
         }
 
         /// <summary>
-        /// Determines whether the specified <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> instance is equal to this instance.
+        /// Determines whether the specified <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> instance is equal to this instance.
         /// </summary>
-        /// <param name="other">The <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> instance to compare with this instance.</param>
+        /// <param name="other">The <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> instance to compare with this instance.</param>
         /// <returns>
-        /// 	<c>true</c> if the specified <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> is equal to this instance; otherwise, <c>false</c>.
+        /// 	<c>true</c> if the specified <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
         public bool Equals(Appearance other)
         {
@@ -324,18 +324,18 @@ namespace Enumerations.Entity.Information.Minefield
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> to the byte array.
+        /// Converts the instance of <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> to the byte array.
         /// </summary>
-        /// <returns>The byte array representing the current <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> instance.</returns>
+        /// <returns>The byte array representing the current <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> instance.</returns>
         public byte[] ToByteArray()
         {
             return BitConverter.GetBytes(this.ToUInt16());
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> to the ushort value.
+        /// Converts the instance of <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> to the ushort value.
         /// </summary>
-        /// <returns>The ushort value representing the current <see cref="Enumerations.Entity.Information.Minefield.Appearance"/> instance.</returns>
+        /// <returns>The ushort value representing the current <see cref="OpenDis.Enumerations.Entity.Information.Minefield.Appearance"/> instance.</returns>
         public ushort ToUInt16()
         {
             ushort val = 0;

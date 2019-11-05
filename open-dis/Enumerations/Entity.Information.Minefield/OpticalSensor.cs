@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Enumerations.Entity.Information.Minefield
+namespace OpenDis.Enumerations.Entity.Information.Minefield
 {
     /// <summary>
     /// Enumeration values for OpticalSensor (entity.mine.sensortype.1.subcat, Optical, 

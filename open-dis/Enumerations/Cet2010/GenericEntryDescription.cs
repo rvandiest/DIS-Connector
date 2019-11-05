@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Xml.Serialization;
 
-namespace Enumerations.Cet2010
+namespace OpenDis.Enumerations.Cet2010
 {
     [XmlInclude(typeof(GenericEntryRange))]
     [XmlInclude(typeof(ExtraRange))]
@@ -18,17 +18,17 @@ namespace Enumerations.Cet2010
     [XmlInclude(typeof(GenericEntryString))]
     [Serializable()]
     [DebuggerStepThrough()]
-    public abstract class GenericEntryDescription : GenericEntry, Enumerations.Cet2010.IGenericEntryDescription
+    public abstract class GenericEntryDescription : GenericEntry, OpenDis.Enumerations.Cet2010.IGenericEntryDescription
     {
-		#regionï¿½Fieldsï¿½(3)ï¿½
+		#region Fields (3) 
 
         private string descriptionField;
         private int groupField;
         private bool groupFieldSpecified;
 
-		#endregionï¿½Fieldsï¿½
+		#endregion Fields 
 
-		#regionï¿½Propertiesï¿½(3)ï¿½
+		#region Properties (3) 
 
         /// <summary>
         /// Gets or sets the text description of the enumeration entry.
@@ -100,6 +100,6 @@ namespace Enumerations.Cet2010
             }
         }
 
-		#endregionï¿½Propertiesï¿½
+		#endregion Properties 
     }
 }
