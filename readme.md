@@ -15,7 +15,7 @@ this example uses the following parameters:
 - multicast group 224.5.6.7
 - port 6400
 */
-Connector conn = DIS.ConnectorFactory.getMulticastConnector(IPAddress.Parse("224.5.6.7"), 6400);
+Connector conn = DIS.ConnectorFactory.getMulticastConnector(IPAddress.Parse("192.168.178.150"), MulticastGroup.Parse("224.5.6.7"), 6400);
 ```
 
 ##### Multicast connector instantiation
@@ -26,7 +26,7 @@ this example uses the following parameters:
 - remote IP address of 192.168.178.150
 - port 6400
 */
-Connector conn = DIS.ConnectorFactory.getBroadcastConnector(6400);
+Connector conn = DIS.ConnectorFactory.getBroadcastConnector(IPAddress.Parse("192.168.178.150"), 6400);
 ```
 ##### Listening for incoming PDU's
 ```c#
