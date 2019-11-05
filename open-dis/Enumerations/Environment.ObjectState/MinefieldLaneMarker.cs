@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Environment.ObjectState
+namespace DIS.Enumerations.Environment.ObjectState
 {
     /// <summary>
     /// Enumeration values for MinefieldLaneMarker (env.obj.appear.linear.marker, Minefield Lane Marker, 
@@ -97,9 +97,9 @@ namespace OpenDis.Enumerations.Environment.ObjectState
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> to <see cref="System.UInt32"/>.
+        /// Performs an explicit conversion from <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> to <see cref="System.UInt32"/>.
         /// </summary>
-        /// <param name="obj">The <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> scheme instance.</param>
+        /// <param name="obj">The <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> scheme instance.</param>
         /// <returns>The result of the conversion.</returns>
         public static explicit operator uint(MinefieldLaneMarker obj)
         {
@@ -107,7 +107,7 @@ namespace OpenDis.Enumerations.Environment.ObjectState
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="System.UInt32"/> to <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/>.
+        /// Performs an explicit conversion from <see cref="System.UInt32"/> to <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/>.
         /// </summary>
         /// <param name="value">The uint value.</param>
         /// <returns>The result of the conversion.</returns>
@@ -117,11 +117,11 @@ namespace OpenDis.Enumerations.Environment.ObjectState
         }
 
         /// <summary>
-        /// Creates the <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance from the byte array.
+        /// Creates the <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance from the byte array.
         /// </summary>
-        /// <param name="array">The array which holds the values for the <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/>.</param>
+        /// <param name="array">The array which holds the values for the <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/>.</param>
         /// <param name="index">The starting position within value.</param>
-        /// <returns>The <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance, represented by a byte array.</returns>
+        /// <returns>The <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance, represented by a byte array.</returns>
         /// <exception cref="ArgumentNullException">if the <c>array</c> is null.</exception>
         /// <exception cref="IndexOutOfRangeException">if the <c>index</c> is lower than 0 or greater or equal than number of elements in array.</exception>
         public static MinefieldLaneMarker FromByteArray(byte[] array, int index)
@@ -142,10 +142,10 @@ namespace OpenDis.Enumerations.Environment.ObjectState
         }
 
         /// <summary>
-        /// Creates the <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance from the uint value.
+        /// Creates the <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance from the uint value.
         /// </summary>
-        /// <param name="value">The uint value which represents the <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance.</param>
-        /// <returns>The <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance, represented by the uint value.</returns>
+        /// <param name="value">The uint value which represents the <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance.</param>
+        /// <returns>The <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance, represented by the uint value.</returns>
         public static MinefieldLaneMarker FromUInt32(uint value)
         {
             MinefieldLaneMarker ps = new MinefieldLaneMarker();
@@ -191,11 +191,11 @@ namespace OpenDis.Enumerations.Environment.ObjectState
         }
 
         /// <summary>
-        /// Determines whether the specified <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance is equal to this instance.
+        /// Determines whether the specified <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance is equal to this instance.
         /// </summary>
-        /// <param name="other">The <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance to compare with this instance.</param>
+        /// <param name="other">The <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance to compare with this instance.</param>
         /// <returns>
-        /// 	<c>true</c> if the specified <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> is equal to this instance; otherwise, <c>false</c>.
+        /// 	<c>true</c> if the specified <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
         public bool Equals(MinefieldLaneMarker other)
         {
@@ -210,18 +210,18 @@ namespace OpenDis.Enumerations.Environment.ObjectState
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> to the byte array.
+        /// Converts the instance of <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> to the byte array.
         /// </summary>
-        /// <returns>The byte array representing the current <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance.</returns>
+        /// <returns>The byte array representing the current <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance.</returns>
         public byte[] ToByteArray()
         {
             return BitConverter.GetBytes(this.ToUInt32());
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> to the uint value.
+        /// Converts the instance of <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> to the uint value.
         /// </summary>
-        /// <returns>The uint value representing the current <see cref="OpenDis.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance.</returns>
+        /// <returns>The uint value representing the current <see cref="DIS.Enumerations.Environment.ObjectState.MinefieldLaneMarker"/> instance.</returns>
         public uint ToUInt32()
         {
             uint val = 0;

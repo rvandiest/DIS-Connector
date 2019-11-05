@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using DIS.Core;
 
-namespace OpenDis.Dis1998
+namespace DIS.Dis1998
 {
     /// <summary>
     /// 5.2.44: Grid data record, a common abstract superclass for several subtypes 

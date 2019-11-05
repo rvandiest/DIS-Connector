@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using DIS.Core;
 
-namespace OpenDis.Dis1998
+namespace DIS.Dis1998
 {
     /// <summary>
     /// Section 5.2.40. Information about a geometry, a state associated with a geometry, a bounding volume, or an associated entity ID. NOTE: this class requires hand coding.

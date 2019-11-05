@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using DIS.Core;
 
-namespace OpenDis.Dis1998
+namespace DIS.Dis1998
 {
     /// <summary>
     /// Used in the UA pdu; ties together an emmitter and a location. This requires manual cleanup; the beam data should not be attached to each emitter system.

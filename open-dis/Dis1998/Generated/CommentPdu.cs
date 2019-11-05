@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using DIS.Core;
 
-namespace OpenDis.Dis1998
+namespace DIS.Dis1998
 {
     /// <summary>
     /// Section 5.3.6.12. Arbitrary messages can be entered into the data stream via use of this PDU. COMPLETE

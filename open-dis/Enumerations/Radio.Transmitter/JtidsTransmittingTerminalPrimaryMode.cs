@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Radio.Transmitter
+namespace DIS.Enumerations.Radio.Transmitter
 {
     /// <summary>
     /// Enumeration values for JtidsTransmittingTerminalPrimaryMode (radio.tx.param.jtids.mode1, Transmitting Terminal Primary Mode, 

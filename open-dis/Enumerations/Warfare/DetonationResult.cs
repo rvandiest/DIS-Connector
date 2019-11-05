@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Warfare
+namespace DIS.Enumerations.Warfare
 {
     /// <summary>
     /// Enumeration values for DetonationResult (warfare.detonationresult, Detonation Result, 

@@ -40,7 +40,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 
-namespace OpenDis.Core
+namespace DIS.Core
 {
     [AttributeUsage(AttributeTargets.Field, Inherited = true)]
     public sealed class InternetDomainCodeAttribute : Attribute

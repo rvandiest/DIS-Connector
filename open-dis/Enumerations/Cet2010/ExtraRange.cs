@@ -3,20 +3,20 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Xml.Serialization;
 
-namespace OpenDis.Enumerations.Cet2010
+namespace DIS.Enumerations.Cet2010
 {
     [Serializable()]
     [DebuggerStepThrough()]
     public class ExtraRange : GenericEntryRange, IExtraOrExtraRange
     {
-		#region Fields (2) 
+		#regionï¿½Fieldsï¿½(2)ï¿½
 
         private ulong uid;
         private string uidField;
 
-		#endregion Fields 
+		#endregionï¿½Fieldsï¿½
 
-		#region Properties (2) 
+		#regionï¿½Propertiesï¿½(2)ï¿½
 
         /// <summary>
         /// Gets or sets the unique numeric identifer - RAW value.
@@ -65,6 +65,6 @@ namespace OpenDis.Enumerations.Cet2010
             }
         }
 
-		#endregion Properties 
+		#endregionï¿½Propertiesï¿½
     }
 }

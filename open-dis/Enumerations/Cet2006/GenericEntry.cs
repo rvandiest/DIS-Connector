@@ -2,9 +2,9 @@
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using DIS.Core;
 
-namespace OpenDis.Enumerations.Cet2006
+namespace DIS.Enumerations.Cet2006
 {
     [XmlInclude(typeof(Extra))]
     [XmlInclude(typeof(Specific))]

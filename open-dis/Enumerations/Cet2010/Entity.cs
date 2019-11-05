@@ -4,15 +4,15 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Xml.Schema;
 using System.Xml.Serialization;
-using OpenDis.Enumerations.EntityState.Type;
+using DIS.Enumerations.EntityState.Type;
 
-namespace OpenDis.Enumerations.Cet2010
+namespace DIS.Enumerations.Cet2010
 {
     [Serializable()]
     [DebuggerStepThrough()]
     public class Entity : GenericEntry
     {
-		#region Fields (9) 
+		#regionï¿½Fieldsï¿½(9)ï¿½
 
         private List<GenericEntryDescription> categories;
 
@@ -25,9 +25,9 @@ namespace OpenDis.Enumerations.Cet2010
         private ulong uid;
         private string uidField;
 
-		#endregion Fields 
+		#endregionï¿½Fieldsï¿½
 
-		#region Properties (9) 
+		#regionï¿½Propertiesï¿½(9)ï¿½
 
         [XmlElement("category", typeof(Category), Form = XmlSchemaForm.Unqualified)]
         [XmlElement("category_range", typeof(CategoryRange), Form = XmlSchemaForm.Unqualified)]
@@ -214,6 +214,6 @@ namespace OpenDis.Enumerations.Cet2010
             }
         }
 
-		#endregion Properties 
+		#endregionï¿½Propertiesï¿½
     }
 }

@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Radio.Intercom
+namespace DIS.Enumerations.Radio.Intercom
 {
     /// <summary>
     /// Enumeration values for TransmitLineState (radio.ic.transmitstate, Transmit Line State, 

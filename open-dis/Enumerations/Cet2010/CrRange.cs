@@ -2,9 +2,9 @@ using System;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using DIS.Core;
 
-namespace OpenDis.Enumerations.Cet2010
+namespace DIS.Enumerations.Cet2010
 {
     /// <summary>
     /// Change request range
@@ -13,20 +13,20 @@ namespace OpenDis.Enumerations.Cet2010
     [DebuggerStepThrough()]
     public class CrRange : CetBase, INotifyPropertyChanged
     {
-		#region Fields (2) 
+		#regionï¿½Fieldsï¿½(2)ï¿½
 
         private int max;
         private int min;
 
-		#endregion Fields 
+		#endregionï¿½Fieldsï¿½
 
-		#region Delegates and Events (1) 
+		#regionï¿½Delegatesï¿½andï¿½Eventsï¿½(1)ï¿½
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-		#endregion Delegates and Events 
+		#endregionï¿½Delegatesï¿½andï¿½Eventsï¿½
 
-		#region Properties (2) 
+		#regionï¿½Propertiesï¿½(2)ï¿½
 
         /// <summary>
         /// Gets or sets the maximum change request number (inclusive).
@@ -76,9 +76,9 @@ namespace OpenDis.Enumerations.Cet2010
             }
         }
 
-		#endregion Properties 
+		#endregionï¿½Propertiesï¿½
 
-		#region Methods (1) 
+		#regionï¿½Methodsï¿½(1)ï¿½
 
         protected void RaisePropertyChanged(string propertyName)
         {
@@ -88,6 +88,6 @@ namespace OpenDis.Enumerations.Cet2010
             }
         }
 
-		#endregion Methods 
+		#endregionï¿½Methodsï¿½
     }
 }

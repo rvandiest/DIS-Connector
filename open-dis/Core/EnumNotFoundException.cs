@@ -40,7 +40,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace OpenDis.Core
+namespace DIS.Core
 {
     public class EnumNotFoundException : Exception
     {

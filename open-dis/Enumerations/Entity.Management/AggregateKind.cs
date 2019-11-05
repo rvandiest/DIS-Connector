@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Entity.Management
+namespace DIS.Enumerations.Entity.Management
 {
     /// <summary>
     /// Enumeration values for AggregateKind (eman.aggregate.type.kind, Aggregate Kind, 

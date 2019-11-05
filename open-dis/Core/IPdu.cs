@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OpenDis.Core
+namespace DIS.Core
 {
     public interface IPdu
     {
@@ -8,7 +8,7 @@ namespace OpenDis.Core
         /// Marshal the data to the DataOutputStream. Note: Length needs to be set before calling this method
         /// </summary>
         /// <param name="dos">The DataOutputStream instance to which the PDU is marshaled.</param>
-        void Marshal(OpenDis.Core.DataOutputStream dos);
+        void Marshal(DIS.Core.DataOutputStream dos);
 
         /// <summary>
         /// This allows for a quick display of PDU data.  The current format is unacceptable and only used for debugging.
@@ -24,7 +24,7 @@ namespace OpenDis.Core
         /// Unmarshal the data from the DataInputStream.
         /// </summary>
         /// <param name="dis">The dis input stream.</param>
-        void Unmarshal(OpenDis.Core.DataInputStream dis);
+        void Unmarshal(DIS.Core.DataInputStream dis);
 
         /// <summary>
         /// Raised when exception occurs while processing PDU.

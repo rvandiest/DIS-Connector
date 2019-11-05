@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.EntityState
+namespace DIS.Enumerations.EntityState
 {
     /// <summary>
     /// Enumeration values for ArticulatedPartIndex (es.vp.type.0.articulated.index, Articulated parts index number, 

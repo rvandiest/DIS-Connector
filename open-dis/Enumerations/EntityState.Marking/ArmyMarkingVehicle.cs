@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.EntityState.Marking
+namespace DIS.Enumerations.EntityState.Marking
 {
     /// <summary>
     /// Enumeration values for ArmyMarkingVehicle (es.markingtext.cctt.vehicle, Byte 6 and 7 - Vehicle, 

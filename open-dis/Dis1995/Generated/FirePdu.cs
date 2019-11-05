@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using DIS.Core;
 
-namespace OpenDis.Dis1995
+namespace DIS.Dis1995
 {
     /// <summary>
     /// Sectioin 5.3.4.1. Information about someone firing something

@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Xml.Serialization;
 
-namespace OpenDis.Enumerations.Cet2010
+namespace DIS.Enumerations.Cet2010
 {
     /// <summary>
     /// Attributes and elements common to enumeration entries concerning a single integer value.
@@ -16,13 +16,13 @@ namespace OpenDis.Enumerations.Cet2010
     [DebuggerStepThrough()]
     public class GenericEntrySingle : GenericEntryDescription
     {
-		#region Fields (1) 
+		#regionï¿½Fieldsï¿½(1)ï¿½
 
         private int valueField;
 
-		#endregion Fields 
+		#endregionï¿½Fieldsï¿½
 
-		#region Properties (1) 
+		#regionï¿½Propertiesï¿½(1)ï¿½
 
         /// <summary>
         /// Gets or sets the enumerated value.
@@ -47,6 +47,6 @@ namespace OpenDis.Enumerations.Cet2010
             }
         }
 
-		#endregion Properties 
+		#endregionï¿½Propertiesï¿½
     }
 }

@@ -44,20 +44,20 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace OpenDis.Core
+namespace DIS.Core
 {
     /// <summary>
     /// Class used to read in PDU Bytes via the DataStream class
     /// </summary>
     public class DataInputStream
     {
-		#region Fields (1) 
+		#regionï¿½Fieldsï¿½(1)ï¿½
 
         private DataStream pduDataStream;
 
-		#endregion Fields 
+		#endregionï¿½Fieldsï¿½
 
-		#region Constructors (2) 
+		#regionï¿½Constructorsï¿½(2)ï¿½
 
         /// <summary>
         /// Initializes a new instance of the <see cref="DataInputStream"/> class with
@@ -91,9 +91,9 @@ namespace OpenDis.Core
             this.pduDataStream.Endian = endian;
         }
         
-		#endregion Constructors 
+		#endregionï¿½Constructorsï¿½
 
-		#region Properties (1) 
+		#regionï¿½Propertiesï¿½(1)ï¿½
 
         ///// <summary>
         ///// Used to convert an array of bytes to a MemoryStream
@@ -125,9 +125,9 @@ namespace OpenDis.Core
             }
         }
 
-		#endregion Properties 
+		#endregionï¿½Propertiesï¿½
 
-		#region Methods (11) 
+		#regionï¿½Methodsï¿½(11)ï¿½
 
         /// <summary>
         /// Reads from DataStream's byte array a byte
@@ -315,6 +315,6 @@ namespace OpenDis.Core
             return returnedData;
         }
 
-		#endregion Methods 
+		#endregionï¿½Methodsï¿½
     }
 }

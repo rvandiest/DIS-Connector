@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Logistics
+namespace DIS.Enumerations.Logistics
 {
     /// <summary>
     /// Enumeration values for FuelSystemRepairCode (log.repaircomplete.fuelsystem, Fuel systems, 

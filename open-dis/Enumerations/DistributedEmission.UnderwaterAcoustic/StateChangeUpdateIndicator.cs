@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic
+namespace DIS.Enumerations.DistributedEmission.UnderwaterAcoustic
 {
     /// <summary>
     /// Enumeration values for StateChangeUpdateIndicator (der.ua.statechangeupdate, State/Change Update indicator, 

@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.EntityState.Marking
+namespace DIS.Enumerations.EntityState.Marking
 {
     /// <summary>
     /// Enumeration values for ArmyMarkingCompany (es.markingtext.cctt.company, Byte 4 - Company, Battery, Troop, 

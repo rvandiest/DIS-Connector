@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.SimulationManagement
+namespace DIS.Enumerations.SimulationManagement
 {
     /// <summary>
     /// Enumeration values for StopFreezeReason (simman.stop.reason, Reason, 

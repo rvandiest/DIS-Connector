@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.DistributedEmission.Iff
+namespace DIS.Enumerations.DistributedEmission.Iff
 {
     /// <summary>
     /// Enumeration values for Type2Parameter1Mode1InterrogatorStatus (der.iff.type.2.fop.param1, Parameter 1 - Mode 1 Interrogator Status, 

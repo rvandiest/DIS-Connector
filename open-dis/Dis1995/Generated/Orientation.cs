@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using DIS.Core;
 
-namespace OpenDis.Dis1995
+namespace DIS.Dis1995
 {
     /// <summary>
     /// Section 5.2.17. Three floating point values representing an orientation, psi, theta, and phi, aka the euler angles, in radians

@@ -62,10 +62,10 @@ while (true)
 ##### Sending a PDU
 ```c#
 EntityStatePdu espdu = new EntityStatePdu();
-using Dis.OpenDis.Core;
-using Dis.OpenDis.Dis1998;
-using Dis.OpenDis.Enumerations;
-using Dis.OpenDis.Enumerations.EntityState.Type;
+using Dis.DIS.Core;
+using Dis.DIS.Dis1998;
+using Dis.DIS.Enumerations;
+using Dis.DIS.Enumerations.EntityState.Type;
 
 //Marnehuizen
 double lat = 53.3889139;

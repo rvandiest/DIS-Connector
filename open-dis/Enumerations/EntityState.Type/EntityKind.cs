@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.EntityState.Type
+namespace DIS.Enumerations.EntityState.Type
 {
     /// <summary>
     /// Enumeration values for EntityKind (es.type.kind, Entity Kind, 

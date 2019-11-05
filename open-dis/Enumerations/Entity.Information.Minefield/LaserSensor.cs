@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Entity.Information.Minefield
+namespace DIS.Enumerations.Entity.Information.Minefield
 {
     /// <summary>
     /// Enumeration values for LaserSensor (entity.mine.sensortype.5.subcat, Laser, 

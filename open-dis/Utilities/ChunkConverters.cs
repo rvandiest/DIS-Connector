@@ -38,16 +38,16 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using OpenDis.Dis1998;
+using DIS.Dis1998;
 
-namespace OpenDis.Core
+namespace DIS.Core
 {
     /// <summary>
     /// Chunk Convertor for DIS 1998 (note: same methods could be reused with 1995).
     /// </summary>
     public static class DIS1998ChunkConverter
     {
-		#region Methods (9)  
+		#regionï¿½Methodsï¿½(9)ï¿½ï¿½
 
         /// <summary>
         /// Method to convert a byte Array into Eigh tByte Chunks
@@ -298,7 +298,7 @@ namespace OpenDis.Core
             return (Array)chunkBuffer;
         }
 
-		#endregion Methods 
+		#endregionï¿½Methodsï¿½
     }
 
     ///// <summary>
