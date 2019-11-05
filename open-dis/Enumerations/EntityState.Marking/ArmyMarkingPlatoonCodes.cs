@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.EntityState.Marking
+namespace Enumerations.EntityState.Marking
 {
     /// <summary>
     /// Enumeration values for ArmyMarkingPlatoonCodes (es.markingtext.cctt.symbol2, Byte 11, 

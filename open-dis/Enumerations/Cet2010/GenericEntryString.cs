@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Xml.Serialization;
 
-namespace OpenDis.Enumerations.Cet2010
+namespace Enumerations.Cet2010
 {
     /// <summary>
     /// Attributes and elements common to enumeration entries concerning a single string value.
@@ -11,13 +11,13 @@ namespace OpenDis.Enumerations.Cet2010
     [DebuggerStepThrough()]
     public class GenericEntryString : GenericEntryDescription
     {
-		#region Fields (1) 
+		#regionï¿½Fieldsï¿½(1)ï¿½
 
         private string valueField;
 
-		#endregion Fields 
+		#endregionï¿½Fieldsï¿½
 
-		#region Properties (1) 
+		#regionï¿½Propertiesï¿½(1)ï¿½
 
         /// <summary>
         /// Gets or sets the enumerated value.
@@ -42,6 +42,6 @@ namespace OpenDis.Enumerations.Cet2010
             }
         }
 
-		#endregion Properties 
+		#endregionï¿½Propertiesï¿½
     }
 }

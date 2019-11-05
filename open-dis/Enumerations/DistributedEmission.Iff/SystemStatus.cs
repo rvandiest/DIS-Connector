@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.DistributedEmission.Iff
+namespace Enumerations.DistributedEmission.Iff
 {
     /// <summary>
     /// Enumeration values for SystemStatus (der.iff.fop.status, System Status, 

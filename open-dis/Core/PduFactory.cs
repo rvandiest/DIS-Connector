@@ -1,9 +1,7 @@
 ﻿using System;
-using OpenDis.Enumerations;
-using Dis1995 = OpenDis.Dis1995;
-using Dis1998 = OpenDis.Dis1998;
+using Enumerations;
 
-namespace OpenDis.Core
+namespace Core
 {
     public static class PduFactory
     {

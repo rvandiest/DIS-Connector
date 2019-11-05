@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Environment.Gridded
+namespace Enumerations.Environment.Gridded
 {
     /// <summary>
     /// Enumeration values for DataRepresentationType (env.gridded.datarepresentation, Data Representation, 

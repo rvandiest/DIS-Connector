@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.DistributedEmission
+namespace Enumerations.DistributedEmission
 {
     /// <summary>
     /// Enumeration values for TankEnginePower (der.sees.power.tanks, Tanks, 

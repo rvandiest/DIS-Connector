@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Entity.Information.Minefield
+namespace Enumerations.Entity.Information.Minefield
 {
     /// <summary>
     /// Enumeration values for SensorTypes (entity.mine.sensortype, Sensor Types, 

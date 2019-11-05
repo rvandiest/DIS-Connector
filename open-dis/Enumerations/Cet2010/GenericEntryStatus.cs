@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace OpenDis.Enumerations.Cet2010
+namespace Enumerations.Cet2010
 {
     /// <summary>
     /// Flag to indicate the approval status of the entry.

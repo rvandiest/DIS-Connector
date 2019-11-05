@@ -1,8 +1,8 @@
 ﻿using System;
-using OpenDis.Core;
-using OpenDis.Enumerations;
+using Core;
+using Enumerations;
 
-namespace OpenDis.Dis1998
+namespace Dis1998
 {
     public static class PduFactory
     {

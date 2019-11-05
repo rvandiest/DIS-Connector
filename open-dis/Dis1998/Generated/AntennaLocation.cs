@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using Core;
 
-namespace OpenDis.Dis1998
+namespace Dis1998
 {
     /// <summary>
     /// 5.2.3: location of the radiating portion of the antenna, specified in world coordinates and         entity coordinates.

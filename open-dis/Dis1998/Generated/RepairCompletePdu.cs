@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using Core;
 
-namespace OpenDis.Dis1998
+namespace Dis1998
 {
     /// <summary>
     /// Section 5.2.5.5. Repair is complete. COMPLETE

@@ -10,9 +10,9 @@ using System;
 using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
-using OpenDis.Core;
+using Core;
 
-namespace OpenDis.Enumerations
+namespace Enumerations
 {
     /// <summary>
     /// Enumeration values for Country (es.type.country, Country, 

@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic
+namespace Enumerations.DistributedEmission.UnderwaterAcoustic
 {
     /// <summary>
     /// Enumeration values for PropulsionPlantConfiguration (der.ua.ppcfg, Propulsion Plant Configuration, 
@@ -144,9 +144,9 @@ namespace OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> to <see cref="System.UInt32"/>.
+        /// Performs an explicit conversion from <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> to <see cref="System.UInt32"/>.
         /// </summary>
-        /// <param name="obj">The <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> scheme instance.</param>
+        /// <param name="obj">The <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> scheme instance.</param>
         /// <returns>The result of the conversion.</returns>
         public static explicit operator uint(PropulsionPlantConfiguration obj)
         {
@@ -154,7 +154,7 @@ namespace OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="System.UInt32"/> to <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/>.
+        /// Performs an explicit conversion from <see cref="System.UInt32"/> to <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/>.
         /// </summary>
         /// <param name="value">The uint value.</param>
         /// <returns>The result of the conversion.</returns>
@@ -164,11 +164,11 @@ namespace OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic
         }
 
         /// <summary>
-        /// Creates the <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance from the byte array.
+        /// Creates the <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance from the byte array.
         /// </summary>
-        /// <param name="array">The array which holds the values for the <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/>.</param>
+        /// <param name="array">The array which holds the values for the <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/>.</param>
         /// <param name="index">The starting position within value.</param>
-        /// <returns>The <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance, represented by a byte array.</returns>
+        /// <returns>The <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance, represented by a byte array.</returns>
         /// <exception cref="ArgumentNullException">if the <c>array</c> is null.</exception>
         /// <exception cref="IndexOutOfRangeException">if the <c>index</c> is lower than 0 or greater or equal than number of elements in array.</exception>
         public static PropulsionPlantConfiguration FromByteArray(byte[] array, int index)
@@ -189,10 +189,10 @@ namespace OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic
         }
 
         /// <summary>
-        /// Creates the <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance from the uint value.
+        /// Creates the <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance from the uint value.
         /// </summary>
-        /// <param name="value">The uint value which represents the <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance.</param>
-        /// <returns>The <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance, represented by the uint value.</returns>
+        /// <param name="value">The uint value which represents the <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance.</param>
+        /// <returns>The <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance, represented by the uint value.</returns>
         public static PropulsionPlantConfiguration FromUInt32(uint value)
         {
             PropulsionPlantConfiguration ps = new PropulsionPlantConfiguration();
@@ -253,11 +253,11 @@ namespace OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic
         }
 
         /// <summary>
-        /// Determines whether the specified <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance is equal to this instance.
+        /// Determines whether the specified <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance is equal to this instance.
         /// </summary>
-        /// <param name="other">The <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance to compare with this instance.</param>
+        /// <param name="other">The <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance to compare with this instance.</param>
         /// <returns>
-        /// 	<c>true</c> if the specified <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> is equal to this instance; otherwise, <c>false</c>.
+        /// 	<c>true</c> if the specified <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
         public bool Equals(PropulsionPlantConfiguration other)
         {
@@ -273,18 +273,18 @@ namespace OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> to the byte array.
+        /// Converts the instance of <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> to the byte array.
         /// </summary>
-        /// <returns>The byte array representing the current <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance.</returns>
+        /// <returns>The byte array representing the current <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance.</returns>
         public byte[] ToByteArray()
         {
             return BitConverter.GetBytes(this.ToUInt32());
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> to the uint value.
+        /// Converts the instance of <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> to the uint value.
         /// </summary>
-        /// <returns>The uint value representing the current <see cref="OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance.</returns>
+        /// <returns>The uint value representing the current <see cref="Enumerations.DistributedEmission.UnderwaterAcoustic.PropulsionPlantConfiguration"/> instance.</returns>
         public uint ToUInt32()
         {
             uint val = 0;

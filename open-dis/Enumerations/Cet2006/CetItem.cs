@@ -1,8 +1,8 @@
 ﻿using System;
-using OpenDis.Core;
-using OpenDis.Enumerations.EntityState.Type;
+using Core;
+using Enumerations.EntityState.Type;
 
-namespace OpenDis.Enumerations.Cet2006
+namespace Enumerations.Cet2006
 {
     public class CetItem : ICetItem
     {

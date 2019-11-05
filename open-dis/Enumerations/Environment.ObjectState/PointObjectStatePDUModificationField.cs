@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Environment.ObjectState
+namespace Enumerations.Environment.ObjectState
 {
     /// <summary>
     /// Enumeration values for PointObjectStatePDUModificationField (env.obj.mod.point, Point Object State PDU Modification Field, 

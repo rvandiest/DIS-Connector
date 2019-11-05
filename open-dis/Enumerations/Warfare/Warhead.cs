@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Warfare
+namespace Enumerations.Warfare
 {
     /// <summary>
     /// Enumeration values for Warhead (warfare.burstdescriptor.warhead, Warhead, 

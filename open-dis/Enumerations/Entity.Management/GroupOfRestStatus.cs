@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Entity.Management
+namespace Enumerations.Entity.Management
 {
     /// <summary>
     /// Enumeration values for GroupOfRestStatus (eman.isgroupof.reststatus, Rest Status, 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OpenDis.Core
+namespace Core
 {
     public abstract class PduBase
     {

@@ -43,10 +43,10 @@ using System.IO;
 using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
-using OpenDis.Dis1998;
-using OpenDis.Enumerations;
+using Dis1998;
+using Enumerations;
 
-namespace OpenDis.Core
+namespace Core
 {
     public class PduProcessor
     {
@@ -603,7 +603,7 @@ namespace OpenDis.Core
                     break;
                 case 6:
                     // DIS 1998
-                    // pdu = OpenDis.Utilities.PDUBank.GetPDU(pduType);
+                    // pdu = Utilities.PDUBank.GetPDU(pduType);
                     pdu = UnmarshalRawPdu((PduType)pduType, dStream);
                     break;
                 default:

@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.DistributedEmission.UnderwaterAcoustic
+namespace Enumerations.DistributedEmission.UnderwaterAcoustic
 {
     /// <summary>
     /// Enumeration values for SystemName (der.ua.systemname, Acoustic System Name, 

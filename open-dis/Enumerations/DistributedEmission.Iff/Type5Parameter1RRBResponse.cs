@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.DistributedEmission.Iff
+namespace Enumerations.DistributedEmission.Iff
 {
     /// <summary>
     /// Enumeration values for Type5Parameter1RRBResponse (der.iff.type.5.fop.param1, Parameter 1 - RRB Response, 
@@ -176,9 +176,9 @@ namespace OpenDis.Enumerations.DistributedEmission.Iff
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> to <see cref="System.UInt16"/>.
+        /// Performs an explicit conversion from <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> to <see cref="System.UInt16"/>.
         /// </summary>
-        /// <param name="obj">The <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> scheme instance.</param>
+        /// <param name="obj">The <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> scheme instance.</param>
         /// <returns>The result of the conversion.</returns>
         public static explicit operator ushort(Type5Parameter1RRBResponse obj)
         {
@@ -186,7 +186,7 @@ namespace OpenDis.Enumerations.DistributedEmission.Iff
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="System.UInt16"/> to <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/>.
+        /// Performs an explicit conversion from <see cref="System.UInt16"/> to <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/>.
         /// </summary>
         /// <param name="value">The ushort value.</param>
         /// <returns>The result of the conversion.</returns>
@@ -196,11 +196,11 @@ namespace OpenDis.Enumerations.DistributedEmission.Iff
         }
 
         /// <summary>
-        /// Creates the <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance from the byte array.
+        /// Creates the <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance from the byte array.
         /// </summary>
-        /// <param name="array">The array which holds the values for the <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/>.</param>
+        /// <param name="array">The array which holds the values for the <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/>.</param>
         /// <param name="index">The starting position within value.</param>
-        /// <returns>The <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance, represented by a byte array.</returns>
+        /// <returns>The <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance, represented by a byte array.</returns>
         /// <exception cref="ArgumentNullException">if the <c>array</c> is null.</exception>
         /// <exception cref="IndexOutOfRangeException">if the <c>index</c> is lower than 0 or greater or equal than number of elements in array.</exception>
         public static Type5Parameter1RRBResponse FromByteArray(byte[] array, int index)
@@ -221,10 +221,10 @@ namespace OpenDis.Enumerations.DistributedEmission.Iff
         }
 
         /// <summary>
-        /// Creates the <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance from the ushort value.
+        /// Creates the <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance from the ushort value.
         /// </summary>
-        /// <param name="value">The ushort value which represents the <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance.</param>
-        /// <returns>The <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance, represented by the ushort value.</returns>
+        /// <param name="value">The ushort value which represents the <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance.</param>
+        /// <returns>The <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance, represented by the ushort value.</returns>
         public static Type5Parameter1RRBResponse FromUInt16(ushort value)
         {
             Type5Parameter1RRBResponse ps = new Type5Parameter1RRBResponse();
@@ -345,11 +345,11 @@ namespace OpenDis.Enumerations.DistributedEmission.Iff
         }
 
         /// <summary>
-        /// Determines whether the specified <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance is equal to this instance.
+        /// Determines whether the specified <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance is equal to this instance.
         /// </summary>
-        /// <param name="other">The <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance to compare with this instance.</param>
+        /// <param name="other">The <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance to compare with this instance.</param>
         /// <returns>
-        /// 	<c>true</c> if the specified <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> is equal to this instance; otherwise, <c>false</c>.
+        /// 	<c>true</c> if the specified <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
         public bool Equals(Type5Parameter1RRBResponse other)
         {
@@ -369,18 +369,18 @@ namespace OpenDis.Enumerations.DistributedEmission.Iff
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> to the byte array.
+        /// Converts the instance of <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> to the byte array.
         /// </summary>
-        /// <returns>The byte array representing the current <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance.</returns>
+        /// <returns>The byte array representing the current <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance.</returns>
         public byte[] ToByteArray()
         {
             return BitConverter.GetBytes(this.ToUInt16());
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> to the ushort value.
+        /// Converts the instance of <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> to the ushort value.
         /// </summary>
-        /// <returns>The ushort value representing the current <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance.</returns>
+        /// <returns>The ushort value representing the current <see cref="Enumerations.DistributedEmission.Iff.Type5Parameter1RRBResponse"/> instance.</returns>
         public ushort ToUInt16()
         {
             ushort val = 0;

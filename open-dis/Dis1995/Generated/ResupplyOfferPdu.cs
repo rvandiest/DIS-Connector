@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using Core;
 
-namespace OpenDis.Dis1995
+namespace Dis1995
 {
     /// <summary>
     /// Section 5.3.5.2. Information about a request for supplies

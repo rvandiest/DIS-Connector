@@ -38,7 +38,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace OpenDis.Core
+namespace Core
 {
     /// <summary>
     /// Known endian types

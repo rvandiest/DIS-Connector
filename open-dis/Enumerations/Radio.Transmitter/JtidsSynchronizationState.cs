@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Radio.Transmitter
+namespace Enumerations.Radio.Transmitter
 {
     /// <summary>
     /// Enumeration values for JtidsSynchronizationState (radio.tx.param.jtids.sync, Synchronization State, 

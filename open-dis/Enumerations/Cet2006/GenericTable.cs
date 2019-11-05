@@ -3,9 +3,9 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Globalization;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using Core;
 
-namespace OpenDis.Enumerations.Cet2006
+namespace Enumerations.Cet2006
 {
     [XmlInclude(typeof(Cet))]
     [Serializable()]

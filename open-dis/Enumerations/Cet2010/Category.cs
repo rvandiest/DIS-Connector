@@ -5,22 +5,22 @@ using System.Globalization;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace OpenDis.Enumerations.Cet2010
+namespace Enumerations.Cet2010
 {
     [Serializable()]
     [DebuggerStepThrough()]
     public class Category : GenericEntrySingle, ICategoryOrCategoryRange
     {
-		#region Fields (3) 
+		#regionï¿½Fieldsï¿½(3)ï¿½
 
         private List<GenericEntryDescription> subcategories;
 
         private ulong uid;
         private string uidField;
 
-		#endregion Fields 
+		#endregionï¿½Fieldsï¿½
 
-		#region Properties (3) 
+		#regionï¿½Propertiesï¿½(3)ï¿½
 
         /// <summary>
         /// Gets or sets the unique numeric identifer - RAW value.
@@ -90,6 +90,6 @@ namespace OpenDis.Enumerations.Cet2010
             }
         }
 
-		#endregion Properties 
+		#endregionï¿½Propertiesï¿½
     }
 }

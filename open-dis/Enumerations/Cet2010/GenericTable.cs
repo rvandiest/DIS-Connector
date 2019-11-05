@@ -5,16 +5,16 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Xml.Schema;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using Core;
 
-namespace OpenDis.Enumerations.Cet2010
+namespace Enumerations.Cet2010
 {
     [XmlInclude(typeof(Cet))]
     [Serializable()]
     [DebuggerStepThrough()]
     public abstract class GenericTable : CetBase, INotifyPropertyChanged
     {
-		#region Fields (10) 
+		#regionï¿½Fieldsï¿½(10)ï¿½
 
         private List<object> itemsField;
 
@@ -28,15 +28,15 @@ namespace OpenDis.Enumerations.Cet2010
         private ulong uid;
         private string uidField;
 
-		#endregion Fields 
+		#endregionï¿½Fieldsï¿½
 
-		#region Delegates and Events (1) 
+		#regionï¿½Delegatesï¿½andï¿½Eventsï¿½(1)ï¿½
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-		#endregion Delegates and Events 
+		#endregionï¿½Delegatesï¿½andï¿½Eventsï¿½
 
-		#region Properties (10) 
+		#regionï¿½Propertiesï¿½(10)ï¿½
 
         [XmlElement("cr", typeof(Cr), Form = XmlSchemaForm.Unqualified)]
         [XmlElement("cr_range", typeof(CrRange), Form = XmlSchemaForm.Unqualified)]
@@ -274,9 +274,9 @@ namespace OpenDis.Enumerations.Cet2010
             }
         }
 
-		#endregion Properties 
+		#endregionï¿½Propertiesï¿½
 
-		#region Methods (1) 
+		#regionï¿½Methodsï¿½(1)ï¿½
 
         protected void RaisePropertyChanged(string propertyName)
         {
@@ -286,6 +286,6 @@ namespace OpenDis.Enumerations.Cet2010
             }
         }
 
-		#endregion Methods 
+		#endregionï¿½Methodsï¿½
     }
 }

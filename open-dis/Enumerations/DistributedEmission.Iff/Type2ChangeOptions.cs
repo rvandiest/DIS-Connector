@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.DistributedEmission.Iff
+namespace Enumerations.DistributedEmission.Iff
 {
     /// <summary>
     /// Enumeration values for Type2ChangeOptions (der.iff.type.2.changeoptions, Change/Options, 

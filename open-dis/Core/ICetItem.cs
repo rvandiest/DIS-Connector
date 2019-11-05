@@ -1,7 +1,7 @@
 ﻿using System;
-using OpenDis.Enumerations;
-using OpenDis.Enumerations.EntityState.Type;
-namespace OpenDis.Core
+using Enumerations;
+using Enumerations.EntityState.Type;
+namespace Core
 {
     /// <summary>
     /// Interface for tabelaric representation of comprehensive entity-type tables

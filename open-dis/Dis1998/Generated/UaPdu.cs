@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using Core;
 
-namespace OpenDis.Dis1998
+namespace Dis1998
 {
     /// <summary>
     /// Section 5.3.7.3. Information about underwater acoustic emmissions. This requires manual cleanup. The beam data records should ALL be a the finish, rather than attached to each emitter system. UNFINISHED

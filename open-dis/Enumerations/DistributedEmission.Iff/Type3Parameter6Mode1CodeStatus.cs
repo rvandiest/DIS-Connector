@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.DistributedEmission.Iff
+namespace Enumerations.DistributedEmission.Iff
 {
     /// <summary>
     /// Enumeration values for Type3Parameter6Mode1CodeStatus (der.iff.type.3.fop.param6, Parameter 6, 

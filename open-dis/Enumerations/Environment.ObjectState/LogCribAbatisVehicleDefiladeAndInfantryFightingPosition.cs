@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Environment.ObjectState
+namespace Enumerations.Environment.ObjectState
 {
     /// <summary>
     /// Enumeration values for LogCribAbatisVehicleDefiladeAndInfantryFightingPosition (env.obj.appear.point.breach, Log crib, Abatis, Vehicle defilade, and Infantry fighting position, 
@@ -97,9 +97,9 @@ namespace OpenDis.Enumerations.Environment.ObjectState
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> to <see cref="System.UInt32"/>.
+        /// Performs an explicit conversion from <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> to <see cref="System.UInt32"/>.
         /// </summary>
-        /// <param name="obj">The <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> scheme instance.</param>
+        /// <param name="obj">The <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> scheme instance.</param>
         /// <returns>The result of the conversion.</returns>
         public static explicit operator uint(LogCribAbatisVehicleDefiladeAndInfantryFightingPosition obj)
         {
@@ -107,7 +107,7 @@ namespace OpenDis.Enumerations.Environment.ObjectState
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="System.UInt32"/> to <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/>.
+        /// Performs an explicit conversion from <see cref="System.UInt32"/> to <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/>.
         /// </summary>
         /// <param name="value">The uint value.</param>
         /// <returns>The result of the conversion.</returns>
@@ -117,11 +117,11 @@ namespace OpenDis.Enumerations.Environment.ObjectState
         }
 
         /// <summary>
-        /// Creates the <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance from the byte array.
+        /// Creates the <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance from the byte array.
         /// </summary>
-        /// <param name="array">The array which holds the values for the <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/>.</param>
+        /// <param name="array">The array which holds the values for the <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/>.</param>
         /// <param name="index">The starting position within value.</param>
-        /// <returns>The <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance, represented by a byte array.</returns>
+        /// <returns>The <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance, represented by a byte array.</returns>
         /// <exception cref="ArgumentNullException">if the <c>array</c> is null.</exception>
         /// <exception cref="IndexOutOfRangeException">if the <c>index</c> is lower than 0 or greater or equal than number of elements in array.</exception>
         public static LogCribAbatisVehicleDefiladeAndInfantryFightingPosition FromByteArray(byte[] array, int index)
@@ -142,10 +142,10 @@ namespace OpenDis.Enumerations.Environment.ObjectState
         }
 
         /// <summary>
-        /// Creates the <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance from the uint value.
+        /// Creates the <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance from the uint value.
         /// </summary>
-        /// <param name="value">The uint value which represents the <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance.</param>
-        /// <returns>The <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance, represented by the uint value.</returns>
+        /// <param name="value">The uint value which represents the <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance.</param>
+        /// <returns>The <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance, represented by the uint value.</returns>
         public static LogCribAbatisVehicleDefiladeAndInfantryFightingPosition FromUInt32(uint value)
         {
             LogCribAbatisVehicleDefiladeAndInfantryFightingPosition ps = new LogCribAbatisVehicleDefiladeAndInfantryFightingPosition();
@@ -191,11 +191,11 @@ namespace OpenDis.Enumerations.Environment.ObjectState
         }
 
         /// <summary>
-        /// Determines whether the specified <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance is equal to this instance.
+        /// Determines whether the specified <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance is equal to this instance.
         /// </summary>
-        /// <param name="other">The <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance to compare with this instance.</param>
+        /// <param name="other">The <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance to compare with this instance.</param>
         /// <returns>
-        /// 	<c>true</c> if the specified <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> is equal to this instance; otherwise, <c>false</c>.
+        /// 	<c>true</c> if the specified <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
         public bool Equals(LogCribAbatisVehicleDefiladeAndInfantryFightingPosition other)
         {
@@ -210,18 +210,18 @@ namespace OpenDis.Enumerations.Environment.ObjectState
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> to the byte array.
+        /// Converts the instance of <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> to the byte array.
         /// </summary>
-        /// <returns>The byte array representing the current <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance.</returns>
+        /// <returns>The byte array representing the current <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance.</returns>
         public byte[] ToByteArray()
         {
             return BitConverter.GetBytes(this.ToUInt32());
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> to the uint value.
+        /// Converts the instance of <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> to the uint value.
         /// </summary>
-        /// <returns>The uint value representing the current <see cref="OpenDis.Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance.</returns>
+        /// <returns>The uint value representing the current <see cref="Enumerations.Environment.ObjectState.LogCribAbatisVehicleDefiladeAndInfantryFightingPosition"/> instance.</returns>
         public uint ToUInt32()
         {
             uint val = 0;

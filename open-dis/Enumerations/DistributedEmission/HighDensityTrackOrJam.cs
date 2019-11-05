@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.DistributedEmission
+namespace Enumerations.DistributedEmission
 {
     /// <summary>
     /// Enumeration values for HighDensityTrackOrJam (der.emission.hdtj, High Density Track/Jam, 

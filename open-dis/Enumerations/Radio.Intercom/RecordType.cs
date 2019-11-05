@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Radio.Intercom
+namespace Enumerations.Radio.Intercom
 {
     /// <summary>
     /// Enumeration values for RecordType (radio.ic.param.type, Record type, 

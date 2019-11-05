@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.EntityState.Type
+namespace Enumerations.EntityState.Type
 {
     /// <summary>
     /// Enumeration values for EnvironmentalSubcategory (es.type.kind.4.subcat, Environmental Kind, 

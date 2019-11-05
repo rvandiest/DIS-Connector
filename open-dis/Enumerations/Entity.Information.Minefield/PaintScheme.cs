@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Entity.Information.Minefield
+namespace Enumerations.Entity.Information.Minefield
 {
     /// <summary>
     /// Enumeration values for PaintScheme (entity.mine.paintscheme, Paint Scheme, 
@@ -204,9 +204,9 @@ namespace OpenDis.Enumerations.Entity.Information.Minefield
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> to <see cref="System.Byte"/>.
+        /// Performs an explicit conversion from <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> to <see cref="System.Byte"/>.
         /// </summary>
-        /// <param name="obj">The <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> scheme instance.</param>
+        /// <param name="obj">The <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> scheme instance.</param>
         /// <returns>The result of the conversion.</returns>
         public static explicit operator byte(PaintScheme obj)
         {
@@ -214,7 +214,7 @@ namespace OpenDis.Enumerations.Entity.Information.Minefield
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="System.Byte"/> to <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/>.
+        /// Performs an explicit conversion from <see cref="System.Byte"/> to <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/>.
         /// </summary>
         /// <param name="value">The byte value.</param>
         /// <returns>The result of the conversion.</returns>
@@ -224,11 +224,11 @@ namespace OpenDis.Enumerations.Entity.Information.Minefield
         }
 
         /// <summary>
-        /// Creates the <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> instance from the byte array.
+        /// Creates the <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> instance from the byte array.
         /// </summary>
-        /// <param name="array">The array which holds the values for the <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/>.</param>
+        /// <param name="array">The array which holds the values for the <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/>.</param>
         /// <param name="index">The starting position within value.</param>
-        /// <returns>The <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> instance, represented by a byte array.</returns>
+        /// <returns>The <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> instance, represented by a byte array.</returns>
         /// <exception cref="ArgumentNullException">if the <c>array</c> is null.</exception>
         /// <exception cref="IndexOutOfRangeException">if the <c>index</c> is lower than 0 or greater or equal than number of elements in array.</exception>
         public static PaintScheme FromByteArray(byte[] array, int index)
@@ -249,10 +249,10 @@ namespace OpenDis.Enumerations.Entity.Information.Minefield
         }
 
         /// <summary>
-        /// Creates the <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> instance from the byte value.
+        /// Creates the <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> instance from the byte value.
         /// </summary>
-        /// <param name="value">The byte value which represents the <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> instance.</param>
-        /// <returns>The <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> instance, represented by the byte value.</returns>
+        /// <param name="value">The byte value which represents the <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> instance.</param>
+        /// <returns>The <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> instance, represented by the byte value.</returns>
         public static PaintScheme FromByte(byte value)
         {
             PaintScheme ps = new PaintScheme();
@@ -313,11 +313,11 @@ namespace OpenDis.Enumerations.Entity.Information.Minefield
         }
 
         /// <summary>
-        /// Determines whether the specified <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> instance is equal to this instance.
+        /// Determines whether the specified <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> instance is equal to this instance.
         /// </summary>
-        /// <param name="other">The <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> instance to compare with this instance.</param>
+        /// <param name="other">The <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> instance to compare with this instance.</param>
         /// <returns>
-        /// 	<c>true</c> if the specified <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> is equal to this instance; otherwise, <c>false</c>.
+        /// 	<c>true</c> if the specified <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
         public bool Equals(PaintScheme other)
         {
@@ -333,18 +333,18 @@ namespace OpenDis.Enumerations.Entity.Information.Minefield
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> to the byte array.
+        /// Converts the instance of <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> to the byte array.
         /// </summary>
-        /// <returns>The byte array representing the current <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> instance.</returns>
+        /// <returns>The byte array representing the current <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> instance.</returns>
         public byte[] ToByteArray()
         {
             return BitConverter.GetBytes(this.ToByte());
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> to the byte value.
+        /// Converts the instance of <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> to the byte value.
         /// </summary>
-        /// <returns>The byte value representing the current <see cref="OpenDis.Enumerations.Entity.Information.Minefield.PaintScheme"/> instance.</returns>
+        /// <returns>The byte value representing the current <see cref="Enumerations.Entity.Information.Minefield.PaintScheme"/> instance.</returns>
         public byte ToByte()
         {
             byte val = 0;

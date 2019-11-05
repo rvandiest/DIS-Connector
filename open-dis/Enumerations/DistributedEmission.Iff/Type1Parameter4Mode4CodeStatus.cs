@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.DistributedEmission.Iff
+namespace Enumerations.DistributedEmission.Iff
 {
     /// <summary>
     /// Enumeration values for Type1Parameter4Mode4CodeStatus (der.iff.type.1.fop.param4, Parameter 4 - Mode 4 Code/Status, 
@@ -153,9 +153,9 @@ namespace OpenDis.Enumerations.DistributedEmission.Iff
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> to <see cref="System.UInt16"/>.
+        /// Performs an explicit conversion from <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> to <see cref="System.UInt16"/>.
         /// </summary>
-        /// <param name="obj">The <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> scheme instance.</param>
+        /// <param name="obj">The <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> scheme instance.</param>
         /// <returns>The result of the conversion.</returns>
         public static explicit operator ushort(Type1Parameter4Mode4CodeStatus obj)
         {
@@ -163,7 +163,7 @@ namespace OpenDis.Enumerations.DistributedEmission.Iff
         }
 
         /// <summary>
-        /// Performs an explicit conversion from <see cref="System.UInt16"/> to <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/>.
+        /// Performs an explicit conversion from <see cref="System.UInt16"/> to <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/>.
         /// </summary>
         /// <param name="value">The ushort value.</param>
         /// <returns>The result of the conversion.</returns>
@@ -173,11 +173,11 @@ namespace OpenDis.Enumerations.DistributedEmission.Iff
         }
 
         /// <summary>
-        /// Creates the <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance from the byte array.
+        /// Creates the <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance from the byte array.
         /// </summary>
-        /// <param name="array">The array which holds the values for the <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/>.</param>
+        /// <param name="array">The array which holds the values for the <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/>.</param>
         /// <param name="index">The starting position within value.</param>
-        /// <returns>The <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance, represented by a byte array.</returns>
+        /// <returns>The <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance, represented by a byte array.</returns>
         /// <exception cref="ArgumentNullException">if the <c>array</c> is null.</exception>
         /// <exception cref="IndexOutOfRangeException">if the <c>index</c> is lower than 0 or greater or equal than number of elements in array.</exception>
         public static Type1Parameter4Mode4CodeStatus FromByteArray(byte[] array, int index)
@@ -198,10 +198,10 @@ namespace OpenDis.Enumerations.DistributedEmission.Iff
         }
 
         /// <summary>
-        /// Creates the <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance from the ushort value.
+        /// Creates the <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance from the ushort value.
         /// </summary>
-        /// <param name="value">The ushort value which represents the <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance.</param>
-        /// <returns>The <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance, represented by the ushort value.</returns>
+        /// <param name="value">The ushort value which represents the <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance.</param>
+        /// <returns>The <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance, represented by the ushort value.</returns>
         public static Type1Parameter4Mode4CodeStatus FromUInt16(ushort value)
         {
             Type1Parameter4Mode4CodeStatus ps = new Type1Parameter4Mode4CodeStatus();
@@ -292,11 +292,11 @@ namespace OpenDis.Enumerations.DistributedEmission.Iff
         }
 
         /// <summary>
-        /// Determines whether the specified <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance is equal to this instance.
+        /// Determines whether the specified <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance is equal to this instance.
         /// </summary>
-        /// <param name="other">The <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance to compare with this instance.</param>
+        /// <param name="other">The <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance to compare with this instance.</param>
         /// <returns>
-        /// 	<c>true</c> if the specified <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> is equal to this instance; otherwise, <c>false</c>.
+        /// 	<c>true</c> if the specified <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
         public bool Equals(Type1Parameter4Mode4CodeStatus other)
         {
@@ -314,18 +314,18 @@ namespace OpenDis.Enumerations.DistributedEmission.Iff
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> to the byte array.
+        /// Converts the instance of <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> to the byte array.
         /// </summary>
-        /// <returns>The byte array representing the current <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance.</returns>
+        /// <returns>The byte array representing the current <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance.</returns>
         public byte[] ToByteArray()
         {
             return BitConverter.GetBytes(this.ToUInt16());
         }
 
         /// <summary>
-        /// Converts the instance of <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> to the ushort value.
+        /// Converts the instance of <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> to the ushort value.
         /// </summary>
-        /// <returns>The ushort value representing the current <see cref="OpenDis.Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance.</returns>
+        /// <returns>The ushort value representing the current <see cref="Enumerations.DistributedEmission.Iff.Type1Parameter4Mode4CodeStatus"/> instance.</returns>
         public ushort ToUInt16()
         {
             ushort val = 0;

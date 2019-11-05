@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace OpenDis.Enumerations.Entity.Information
+namespace Enumerations.Entity.Information
 {
     /// <summary>
     /// Enumeration values for EntityCollisionType (entity.collision.type, Collision Type, 

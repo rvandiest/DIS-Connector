@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using Core;
 
-namespace OpenDis.Dis1995
+namespace Dis1995
 {
     /// <summary>
     /// Section 5.3.7.1. Information about active electronic warfare (EW) emissions and active EW countermeasures shall be com-  municated using an Electromagnetic Emission PDU.
@@ -86,7 +86,7 @@ namespace OpenDis.Dis1995
         private ushort _emissionsPadding;
 
         /// <summary>
-        /// This field shall specify the length of this emitter system’s data (including  beam data and its track/jam information) in 32-bit words. The length shall include the System  Data Length field. 
+        /// This field shall specify the length of this emitter systemï¿½s data (including  beam data and its track/jam information) in 32-bit words. The length shall include the System  Data Length field. 
         /// </summary>
         private byte _systemDataLength;
 
@@ -111,7 +111,7 @@ namespace OpenDis.Dis1995
         private Vector3Float _location = new Vector3Float();
 
         /// <summary>
-        /// This field shall specify the length of this beam’s data (including track/  jam information) in 32-bit words. The length shall include the Beam Data Length field 
+        /// This field shall specify the length of this beamï¿½s data (including track/  jam information) in 32-bit words. The length shall include the Beam Data Length field 
         /// </summary>
         private byte _beamDataLength;
 
@@ -282,7 +282,7 @@ namespace OpenDis.Dis1995
         }
 
         /// <summary>
-        /// Gets or sets the This field shall specify the length of this emitter system’s data (including  beam data and its track/jam information) in 32-bit words. The length shall include the System  Data Length field. 
+        /// Gets or sets the This field shall specify the length of this emitter systemï¿½s data (including  beam data and its track/jam information) in 32-bit words. The length shall include the System  Data Length field. 
         /// </summary>
         [XmlElement(Type = typeof(byte), ElementName = "systemDataLength")]
         public byte SystemDataLength
@@ -367,7 +367,7 @@ namespace OpenDis.Dis1995
         }
 
         /// <summary>
-        /// Gets or sets the This field shall specify the length of this beam’s data (including track/  jam information) in 32-bit words. The length shall include the Beam Data Length field 
+        /// Gets or sets the This field shall specify the length of this beamï¿½s data (including track/  jam information) in 32-bit words. The length shall include the Beam Data Length field 
         /// </summary>
         [XmlElement(Type = typeof(byte), ElementName = "beamDataLength")]
         public byte BeamDataLength

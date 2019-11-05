@@ -44,9 +44,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 using System.Xml.Serialization;
-using OpenDis.Core;
+using Core;
 
-namespace OpenDis.Dis1995
+namespace Dis1995
 {
     /// <summary>
     /// Section 5.2.5.4. Cancel of resupply by either the receiving or supplying entity
