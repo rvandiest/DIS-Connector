@@ -5,24 +5,33 @@ using System.Net.Sockets;
 using System.Threading;
 using DIS.Core;
 using DIS.Dis1998;
+using Utilties.Networking;
 
 namespace DIS
 {
     /// <summary>
-    /// The Connector class is an abstract base class for UDP socket connections.
+    /// The Connector class is the "base" for multicast connections. This class
+    /// Enables for both sending and receiving PDU's from given multicast addresses.
+    /// For more help, see:
+    /// https://github.com/rvandiest/DIS-Connector
     /// </summary>
-    public abstract class Connector
+    public class Connector
     {
-        Thread ReceiveThread { get; set; }
-        protected Queue<Pdu> PduQueue { get; set; }
-        protected PduProcessor PduProcessor { get; set; }
-        protected int Port { get; set; }
-        protected Socket Socket { get; set; }
-        protected EndPoint Endpoint;
+        private Thread ReceiveThread { get; set; }
+        private Queue<Pdu> PduQueue { get; set; }
+        private PduProcessor PduProcessor { get; set; }
+        private int Port { get; set; }
+        private UdpClient UdpClient { get; set; }
+        private IPEndPoint LocalEndPoint;
 
         //basic setup for the properties that are the same for every child class
-        internal Connector()
+        internal Connector(int port)
         {
+            Port = port;
+            LocalEndPoint = new IPEndPoint(IPAddress.Any, 0);
+
+            UdpClient = new UdpClient(Port);
+
             PduProcessor = new PduProcessor();
             PduProcessor.Endian = Endian.Big;
 
@@ -63,13 +72,11 @@ namespace DIS
         protected virtual void ListenerLoop()
         {
 
-            byte[] bytes = new Byte[10000];
-            int length = 0;
-
             while (true)
             {
                 List<object> pduList;
-                length = Socket.ReceiveFrom(bytes, ref Endpoint);
+
+                byte[] bytes = UdpClient.Receive(ref LocalEndPoint);
                 pduList = PduProcessor.ProcessPdu(bytes, Endian.Big);
                 lock (PduQueue)
                 {
@@ -86,12 +93,12 @@ namespace DIS
         /// Suspends the listening for incoming PDU's. 
         /// <param name="pdu">The PDU to be transmitted</param>
         /// </summary>
-        public void sendPDU(IMarshallable pdu)
+        public void sendPDU(IMarshallable pdu, MulticastGroup group)
         {
             DataOutputStream dos = new DataOutputStream(Endian.Big);
             pdu.MarshalAutoLengthSet(dos);
-            byte[] buff = dos.ConvertToBytes();
-            Socket.SendTo(buff, Endpoint);
+            byte[] data = dos.ConvertToBytes();
+            UdpClient.Send(data, data.Length, new IPEndPoint(group.Address, Port));
         }
 
         /// <summary>
@@ -112,6 +119,16 @@ namespace DIS
                 }
                 return results;
             }
+        }
+
+        /// <summary>
+        /// Enables multicasting PDU's to specified address, and receive PDU's likewise. 
+        /// sent from that address.
+        /// <param name="group">The multicast group, ranging from 224.0.0.0 to 239.255.255.255.</param>
+        /// </summary>
+        public void JoinMulticastGroup(MulticastGroup group)
+        {
+            UdpClient.JoinMulticastGroup(group.Address, 50);
         }
 
     }

@@ -5,29 +5,15 @@
 Reference the prebuilt binary (DIS Connector.dll), or add this source code to your project.
 
 ### code examples
-#### Using the connectors
+#### Using the connector
 ##### Multicast connector instantiation
 ```c#
-/*
-use the factory to get your instantiation
-this example uses the following parameters:
-- remote IP address of 192.168.178.150
-- multicast group 224.5.6.7
-- port 6400
-*/
-Connector conn = DIS.ConnectorFactory.getMulticastConnector(IPAddress.Parse("192.168.178.150"), MulticastGroup.Parse("224.5.6.7"), 6400);
+//get an instance of the connector from the factory
+Connector conn = DIS.ConnectorFactory.getInstance(6400);
+//then join a multicast group of your choice to send and receive PDU's from/to
+conn.JoinMulticastGroup(MulticastGroup.Parse("224.5.5.5"));
 ```
 
-##### Multicast connector instantiation
-```c#
-/*
-use the factory to get your instantiation
-this example uses the following parameters:
-- remote IP address of 192.168.178.150
-- port 6400
-*/
-Connector conn = DIS.ConnectorFactory.getBroadcastConnector(IPAddress.Parse("192.168.178.150"), 6400);
-```
 ##### Listening for incoming PDU's
 ```c#
 //start the background listener
@@ -95,5 +81,6 @@ location.Y = disCoordinates[1];
 location.Z = disCoordinates[2];
 espdu.Timestamp = DisTime.DisRelativeTimestamp;
 
-conn.sendPDU(espdu)
+//send the constructed PDU to the specified multicast group
+conn.sendPDU(espdu, MulticastGroup.Parse("224.5.5.5"))
 ```
