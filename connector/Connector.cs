@@ -39,6 +39,15 @@ namespace DIS
         }
 
         /// <summary>
+        /// Uses a destructor to close the Socket connection.
+        /// </summary>
+        ~Connector()
+        {
+            StopListening();
+            UdpClient.Dispose();
+        }
+
+        /// <summary>
         /// This method sets up the ReceiveThread property. This thread runs in the background
         /// and collects all received DIS PDU's.
         /// </summary>
