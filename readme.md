@@ -2,7 +2,12 @@
 
 ## Installation
 
-Reference the prebuilt binary (DIS Connector.dll), or add this source code to your project.
+To use, copy the following folders to your project:
+
+* connector
+* decoders
+* open-dis
+* utils
 
 ### code examples
 #### Using the connector
@@ -83,4 +88,79 @@ espdu.Timestamp = DisTime.DisRelativeTimestamp;
 
 //send the constructed PDU to the specified multicast group
 conn.sendPDU(espdu, MulticastGroup.Parse("224.5.5.5"))
+```
+
+##### Sending a PDU
+It's also possible to decode a PDU to a JSON string.
+```c#
+foreach (Pdu pdu in conn.GetEnqueuedPDUs())
+{
+    //if you want the PDU to be accompanied with a "details field", pass true.
+    Console.WriteLine(JSONDecoder.Decode(pdu, true));
+    /*
+    results in:
+    {
+        "EntityID": {
+            "Site": 0,
+            "Application": 1,
+            "Entity": 2
+        },
+        "ForceID": 0,
+        "NumberOfArticulationParameters": 0,
+        "EntityType": {
+            "EntityKind": {
+            "Value": 3,
+            "Details": "Life form"
+            },
+            "Domain": {
+            "Value": 1,
+            "Details": "Land"
+            },
+            "Country": {
+            "Value": 153,
+            "Details": "Netherlands (NLD)"
+            },
+            "Category": {
+            "Value": 10,
+            "Details": "Conventional Armed Forces64"
+            },
+            "Subcategory": {
+            "Value": 1
+            },
+            "Specific": {
+            "Value": 1
+            },
+            "Extra": {
+            "Value": 1
+            }
+        }
+        ..etc
+    }
+    */ 
+
+    //if set to false, the field types are primitives.
+    Console.WriteLine(JSONDecoder.Decode(pdu, true));
+    /*
+    results in:
+    {
+        "EntityID": {
+            "Site": 0,
+            "Application": 1,
+            "Entity": 2
+        },
+        "ForceID": 0,
+        "NumberOfArticulationParameters": 0,
+        "EntityType": {
+            "EntityKind": 3,
+            "Domain": 1,
+            "Country":153,
+            "Category": 10,
+            "Subcategory" : 1,
+            "Specific": 1,
+            "Extra": 1
+        }
+        ..etc
+    }
+    */     
+}
 ```
