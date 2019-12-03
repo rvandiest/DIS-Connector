@@ -2,12 +2,8 @@
 
 ## Installation
 
-To use, copy the following folders to your project:
-
-* connector
-* decoders
-* open-dis
-* utils
+The dist folder contains the releases in folders named by their version number. Use the highest number to have the newest stable release.
+Copy the DLL's in the folder to your project and reference them to use this library.
 
 ### code examples
 #### Using the connector
@@ -53,10 +49,10 @@ while (true)
 ##### Sending a PDU
 ```c#
 EntityStatePdu espdu = new EntityStatePdu();
-using Dis.DIS.Core;
-using Dis.DIS.Dis1998;
-using Dis.DIS.Enumerations;
-using Dis.DIS.Enumerations.EntityState.Type;
+using DIS.Core;
+using DIS.Dis1998;
+using DIS.Enumerations;
+using DIS.Enumerations.EntityState.Type;
 
 //Marnehuizen
 double lat = 53.3889139;
