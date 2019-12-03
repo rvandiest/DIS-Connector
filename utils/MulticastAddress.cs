@@ -1,11 +1,16 @@
 using System;
 using System.Net;
 
-namespace Utilties.Networking
+namespace DIS.Utilties.Networking
 {
+    /// <summary>
+    /// Represents a multicast group, with addresses ranging from 224.0.0.0 to 239.255.255.255.
+    /// </summary>
     public struct MulticastGroup
     {
-        //224.0.0.0 to 239.255.255.255
+        /// <summary>
+        /// Returns the <see cref="System.Net.IPAddress"/> of this multicast group.
+        /// </summary>
         public IPAddress Address { get; private set; }
         private MulticastGroup(string address)
         {
@@ -49,6 +54,11 @@ namespace Utilties.Networking
 
             }
         }
+
+        /// <summary>
+        /// Parses a multicast group from a string.
+        /// </summary>
+        /// <param name="address">The address of the multicast group, ranging from 224.0.0.0 to 239.255.255.255</param>
         public static MulticastGroup Parse(string address)
         {
             return new MulticastGroup(address);

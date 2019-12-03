@@ -2,10 +2,23 @@ using System.IO;
 using System.Text;
 using DIS.Dis1998;
 using Newtonsoft.Json;
+
+/// <summary>
+/// Contains decoder classes to decode PDU's to a different data representation.
+/// </summary>
 namespace DIS.Decoders
 {
+    /// <summary>
+    /// Contains methods to decode PDU's to a JSON string representation.
+    /// </summary>
     public static class JSONDecoder
     {
+        /// <summary>
+        /// Decodes a PDU instance to a JSON string.
+        /// </summary>
+        /// <param name="pdu"><see cref="DIS.Dis1998.Pdu"/> instance to be decoded</param>
+        /// <param name="detailed">Whether or not to add a details field where possible.</param>
+        /// <returns></returns>
         public static string Decode(Pdu pdu, bool detailed)
         {
             if (pdu is EntityStatePdu && detailed)

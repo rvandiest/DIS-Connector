@@ -1,11 +1,11 @@
 using System;
 using System.Net;
 
-namespace Utilties.Networking
+/// <summary>
+/// Networking helpers.
+/// </summary>
+namespace DIS.Utilties.Networking
 {
-    /// <summary>
-    /// Networking helpers.
-    /// </summary>
     public static class IPUtilities
     {
         /// <summary>
