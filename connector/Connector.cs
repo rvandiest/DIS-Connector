@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
+using System.Threading.Tasks;
 using DIS.Core;
 using DIS.Dis1998;
 using DIS.Utilties.Networking;
@@ -59,7 +60,7 @@ namespace DIS
         /// Sets up the connector.
         /// </summary>
         /// <param name="port">UDP port number to bind the listener to.</param>
-        internal Connector(int port) : this(port, 10000){}
+        internal Connector(int port) : this(port, 10000) { }
 
         /// <summary>
         /// Sets up the connector.
@@ -96,7 +97,7 @@ namespace DIS
         /// </summary>
         private void ThreadSetup()
         {
-            ReceiveThread = new Thread(new ThreadStart(ListenerLoop));
+            ReceiveThread = new Thread(new ThreadStart(ReceiveLoop));
             ReceiveThread.IsBackground = true;
         }
 
@@ -122,26 +123,38 @@ namespace DIS
         /// Ever ongoing loop that waits for incoming PDU's.
         /// Received PDU's are enqueued in the PduQueue property.
         /// </summary>
-        protected virtual void ListenerLoop()
+        protected virtual void ReceiveLoop()
         {
             while (true)
             {
-                List<object> pduList;
-
                 byte[] bytes = UdpClient.Receive(ref LocalEndPoint);
-                pduList = PduProcessor.ProcessPdu(bytes, Endian.Big);
+                processPDUs(bytes);
+            }
+        }
+
+        /// <summary>
+        /// Asynchrously processes bytes to pdu's and adds them to the queue.
+        /// </summary>
+        /// <param name="input">byte array to convert to one or multiple pdu's</param>
+        protected virtual async void processPDUs(byte[] input)
+        {
+            await Task.Run(() =>
+            {
+                List<object> pduList = PduProcessor.ProcessPdu(input, Endian.Big);
                 lock (PduQueue)
                 {
                     foreach (object pduObj in pduList)
                     {
                         //check if the buffer has overflown
-                        while(PduQueue.Count > BufferSize){
+                        while (PduQueue.Count > BufferSize)
+                        {
                             PduQueue.Dequeue();
                         }
                         PduQueue.Enqueue((Pdu)pduObj);
                     }
                 }
-            }
+            });
+
         }
 
 
@@ -157,12 +170,14 @@ namespace DIS
             byte[] data = dos.ConvertToBytes();
             UdpClient.Send(data, data.Length, new IPEndPoint(group.Address, Port));
         }
-        
+
         /// <summary>
         /// Wipes all stored PDU's from the memory. 
         /// </summary>
-        public void FlushBuffer(){
-            lock(PduQueue){
+        public void FlushBuffer()
+        {
+            lock (PduQueue)
+            {
                 PduQueue = new Queue<Pdu>();
             }
         }
