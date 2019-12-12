@@ -35,3 +35,9 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+
+# nuget generated packages
+*.nupkg
+
+# nuget exe
+nuget.exe
