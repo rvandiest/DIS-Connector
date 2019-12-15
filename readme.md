@@ -1,11 +1,22 @@
 # Easy DIS (Distributed Interactive Simulation) Connectivity using DIS Connector
+## What is this project about?
+**D**istributed **I**nteractive **S**imulation (DIS) is an IEEE standard for conducting real-time platform-level wargaming across multiple host computers and is used worldwide, especially by military organizations. 
+
+This library integrates a slightly modified version of [Open-DIS](http://open-dis.org/) with functionality to receive and send DIS messages (DIS PDU's) using [multicasting](https://en.wikipedia.org/wiki/Multicast).
+
+## Extended documentation
+API documentation for this library can be found at minor.robertvandiest.nl.
 
 ## Installation
+Get this package on [Nuget](https://www.nuget.org/packages/dis-connector).
 
-The dist folder contains the releases in folders named by their version number. Use the highest number to have the newest stable release.
-Copy the DLL's in the folder to your project and reference them to use this library.
+### Dotnet Core (2.2+) CLI
+```cli
+dotnet add package dis-connector
+```
+Or use the built-in package manager in Visual Studio.
 
-### code examples
+### Code examples
 #### Using the connector
 ##### Multicast connector instantiation
 ```c#
