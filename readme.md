@@ -5,7 +5,7 @@
 This library integrates a slightly modified version of [Open-DIS](http://open-dis.org/) with functionality to receive and send DIS messages (DIS PDU's) using [multicasting](https://en.wikipedia.org/wiki/Multicast).
 
 ## Extended documentation
-API documentation for this library can be found at minor.robertvandiest.nl.
+API documentation for this library can be found at www.minor.robertvandiest.nl.
 
 ## Installation
 Get this package on [Nuget](https://www.nuget.org/packages/dis-connector).
