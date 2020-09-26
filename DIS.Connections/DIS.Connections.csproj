@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DIS.Decoders\DIS.Decoders.csproj" />
+    <ProjectReference Include="..\DIS.OpenDIS\DIS.OpenDIS.csproj" />
+    <ProjectReference Include="..\DIS.Utils\DIS.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
