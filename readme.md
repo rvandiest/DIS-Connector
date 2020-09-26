@@ -17,11 +17,13 @@ dotnet add package dis-connector
 Or use the built-in package manager in Visual Studio.
 
 ### Code examples
+
+see the ExampleApp folder for detailed sending- and receiving examples. Code snippets can be found below.
 #### Using the connector
 ##### Multicast connector instantiation
 ```c#
 //get an instance of the connector from the factory
-Connector conn = DIS.ConnectorFactory.getInstance(6400);
+Connector conn = ConnectorFactory.getInstance(6400);
 //then join a multicast group of your choice to send and receive PDU's from/to
 conn.JoinMulticastGroup(MulticastGroup.Parse("224.5.5.5"));
 ```
@@ -60,10 +62,6 @@ while (true)
 ##### Sending a PDU
 ```c#
 EntityStatePdu espdu = new EntityStatePdu();
-using DIS.Core;
-using DIS.Dis1998;
-using DIS.Enumerations;
-using DIS.Enumerations.EntityState.Type;
 
 //Marnehuizen
 double lat = 53.3889139;
